@@ -37,6 +37,9 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.empleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.editorialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.proveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reservacionDeLibrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +50,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.autoresToolStripMenuItem,
             this.prestamosToolStripMenuItem,
             this.usuariosFrecuentesToolStripMenuItem,
-            this.empleadosToolStripMenuItem});
+            this.empleadosToolStripMenuItem,
+            this.editorialesToolStripMenuItem,
+            this.proveedoresToolStripMenuItem,
+            this.reservacionDeLibrosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -102,6 +108,24 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.button2.Text = "Libros recomendados ";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // editorialesToolStripMenuItem
+            // 
+            this.editorialesToolStripMenuItem.Name = "editorialesToolStripMenuItem";
+            this.editorialesToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.editorialesToolStripMenuItem.Text = "Editoriales ";
+            // 
+            // proveedoresToolStripMenuItem
+            // 
+            this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.proveedoresToolStripMenuItem.Text = "Proveedores ";
+            // 
+            // reservacionDeLibrosToolStripMenuItem
+            // 
+            this.reservacionDeLibrosToolStripMenuItem.Name = "reservacionDeLibrosToolStripMenuItem";
+            this.reservacionDeLibrosToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
+            this.reservacionDeLibrosToolStripMenuItem.Text = "Reservacion de libros ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -130,6 +154,9 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private System.Windows.Forms.ToolStripMenuItem empleadosToolStripMenuItem;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ToolStripMenuItem editorialesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reservacionDeLibrosToolStripMenuItem;
     }
 }
 
