@@ -64,6 +64,12 @@
     <Compile Include="Libros Nuevos.Designer.cs">
       <DependentUpon>Libros Nuevos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Libros_Recomendados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Libros_Recomendados.Designer.cs">
+      <DependentUpon>Libros_Recomendados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Libros Nuevos.resx">
       <DependentUpon>Libros Nuevos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libros_Recomendados.resx">
+      <DependentUpon>Libros_Recomendados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
