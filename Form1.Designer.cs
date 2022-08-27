@@ -41,6 +41,8 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.reservacionDeLibrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.acerca = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayuda = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,10 +58,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.empleadosToolStripMenuItem,
             this.editorialesToolStripMenuItem,
             this.proveedoresToolStripMenuItem,
-            this.reservacionDeLibrosToolStripMenuItem});
+            this.reservacionDeLibrosToolStripMenuItem,
+            this.acerca,
+            this.ayuda});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(1224, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -131,13 +135,26 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.button2.Text = "Libros recomendados ";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // acerca
+            // 
+            this.acerca.Name = "acerca";
+            this.acerca.Size = new System.Drawing.Size(98, 23);
+            this.acerca.Text = "Acerca de ";
+            this.acerca.Click += new System.EventHandler(this.acerca_Click);
+            // 
+            // ayuda
+            // 
+            this.ayuda.Name = "ayuda";
+            this.ayuda.Size = new System.Drawing.Size(71, 23);
+            this.ayuda.Text = "Ayuda ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1224, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
@@ -165,6 +182,8 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private System.Windows.Forms.ToolStripMenuItem editorialesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reservacionDeLibrosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem acerca;
+        private System.Windows.Forms.ToolStripMenuItem ayuda;
     }
 }
 

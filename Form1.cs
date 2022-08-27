@@ -28,5 +28,14 @@ namespace Semana_5_proyecto_formularios_biblioteca
             Form3 facercade = new Form3();
             facercade.ShowDialog();
         }
+
+        private void acerca_Click(object sender, EventArgs e)
+        {
+            acercade acerca = new acercade();
+            acerca.ShowDialog();
+
+
+
+        }
     }
 }
