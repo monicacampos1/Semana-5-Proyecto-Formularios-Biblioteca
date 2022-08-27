@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Form1 : Form
+    public partial class Menu : Form
     {
-        public Form1()
+        public Menu()
         {
             InitializeComponent();
         }
@@ -40,6 +40,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
             Empleados empleados = new Empleados();
             empleados.ShowDialog();
+        }
+
+        private void editorialesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Editoriales editorial = new Editoriales();
+            editorial.ShowDialog();
         }
     }
 }
