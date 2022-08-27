@@ -29,6 +29,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.categoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.autoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,6 +46,8 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Aquamarine;
+            this.menuStrip1.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.categoriasToolStripMenuItem,
             this.autoresToolStripMenuItem,
@@ -56,58 +59,58 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.reservacionDeLibrosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // categoriasToolStripMenuItem
             // 
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
-            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
+            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(103, 23);
             this.categoriasToolStripMenuItem.Text = "Categorias ";
             // 
             // autoresToolStripMenuItem
             // 
             this.autoresToolStripMenuItem.Name = "autoresToolStripMenuItem";
-            this.autoresToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+            this.autoresToolStripMenuItem.Size = new System.Drawing.Size(83, 23);
             this.autoresToolStripMenuItem.Text = "Autores ";
             // 
             // prestamosToolStripMenuItem
             // 
             this.prestamosToolStripMenuItem.Name = "prestamosToolStripMenuItem";
-            this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
+            this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(97, 23);
             this.prestamosToolStripMenuItem.Text = "Prestamos";
             this.prestamosToolStripMenuItem.Click += new System.EventHandler(this.prestamosToolStripMenuItem_Click);
             // 
             // usuariosFrecuentesToolStripMenuItem
             // 
             this.usuariosFrecuentesToolStripMenuItem.Name = "usuariosFrecuentesToolStripMenuItem";
-            this.usuariosFrecuentesToolStripMenuItem.Size = new System.Drawing.Size(127, 20);
+            this.usuariosFrecuentesToolStripMenuItem.Size = new System.Drawing.Size(171, 23);
             this.usuariosFrecuentesToolStripMenuItem.Text = "Usuarios Frecuentes ";
             this.usuariosFrecuentesToolStripMenuItem.Click += new System.EventHandler(this.usuariosFrecuentesToolStripMenuItem_Click);
             // 
             // empleadosToolStripMenuItem
             // 
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(105, 23);
             this.empleadosToolStripMenuItem.Text = "Empleados ";
             // 
             // editorialesToolStripMenuItem
             // 
             this.editorialesToolStripMenuItem.Name = "editorialesToolStripMenuItem";
-            this.editorialesToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.editorialesToolStripMenuItem.Size = new System.Drawing.Size(101, 23);
             this.editorialesToolStripMenuItem.Text = "Editoriales ";
             // 
             // proveedoresToolStripMenuItem
             // 
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(118, 23);
             this.proveedoresToolStripMenuItem.Text = "Proveedores ";
             // 
             // reservacionDeLibrosToolStripMenuItem
             // 
             this.reservacionDeLibrosToolStripMenuItem.Name = "reservacionDeLibrosToolStripMenuItem";
-            this.reservacionDeLibrosToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
+            this.reservacionDeLibrosToolStripMenuItem.Size = new System.Drawing.Size(181, 23);
             this.reservacionDeLibrosToolStripMenuItem.Text = "Reservacion de libros ";
             // 
             // button1
@@ -132,6 +135,8 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -139,6 +144,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
