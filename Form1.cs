@@ -35,5 +35,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
             acerca.ShowDialog();
 
         }
+
+        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Empleados empleados = new Empleados();
+            empleados.ShowDialog();
+        }
     }
 }

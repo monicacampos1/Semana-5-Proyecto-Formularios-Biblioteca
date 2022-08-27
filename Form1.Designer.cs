@@ -51,6 +51,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Aquamarine;
             this.menuStrip1.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.categoriasToolStripMenuItem,
             this.autoresToolStripMenuItem,
@@ -64,112 +65,117 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.ayuda});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1224, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(1632, 32);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // categoriasToolStripMenuItem
             // 
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
-            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(103, 23);
+            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(128, 28);
             this.categoriasToolStripMenuItem.Text = "Categorias ";
             // 
             // autoresToolStripMenuItem
             // 
             this.autoresToolStripMenuItem.Name = "autoresToolStripMenuItem";
-            this.autoresToolStripMenuItem.Size = new System.Drawing.Size(83, 23);
+            this.autoresToolStripMenuItem.Size = new System.Drawing.Size(102, 28);
             this.autoresToolStripMenuItem.Text = "Autores ";
             // 
             // prestamosToolStripMenuItem
             // 
             this.prestamosToolStripMenuItem.Name = "prestamosToolStripMenuItem";
-            this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(97, 23);
+            this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(121, 28);
             this.prestamosToolStripMenuItem.Text = "Prestamos";
             this.prestamosToolStripMenuItem.Click += new System.EventHandler(this.prestamosToolStripMenuItem_Click);
             // 
             // usuariosFrecuentesToolStripMenuItem
             // 
             this.usuariosFrecuentesToolStripMenuItem.Name = "usuariosFrecuentesToolStripMenuItem";
-            this.usuariosFrecuentesToolStripMenuItem.Size = new System.Drawing.Size(171, 23);
+            this.usuariosFrecuentesToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
             this.usuariosFrecuentesToolStripMenuItem.Text = "Usuarios Frecuentes ";
             this.usuariosFrecuentesToolStripMenuItem.Click += new System.EventHandler(this.usuariosFrecuentesToolStripMenuItem_Click);
             // 
             // empleadosToolStripMenuItem
             // 
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(105, 23);
+            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(130, 28);
             this.empleadosToolStripMenuItem.Text = "Empleados ";
+            this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.empleadosToolStripMenuItem_Click);
             // 
             // editorialesToolStripMenuItem
             // 
             this.editorialesToolStripMenuItem.Name = "editorialesToolStripMenuItem";
-            this.editorialesToolStripMenuItem.Size = new System.Drawing.Size(101, 23);
+            this.editorialesToolStripMenuItem.Size = new System.Drawing.Size(125, 28);
             this.editorialesToolStripMenuItem.Text = "Editoriales ";
             // 
             // proveedoresToolStripMenuItem
             // 
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(118, 23);
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(145, 28);
             this.proveedoresToolStripMenuItem.Text = "Proveedores ";
             // 
             // reservacionDeLibrosToolStripMenuItem
             // 
             this.reservacionDeLibrosToolStripMenuItem.Name = "reservacionDeLibrosToolStripMenuItem";
-            this.reservacionDeLibrosToolStripMenuItem.Size = new System.Drawing.Size(181, 23);
+            this.reservacionDeLibrosToolStripMenuItem.Size = new System.Drawing.Size(225, 28);
             this.reservacionDeLibrosToolStripMenuItem.Text = "Reservacion de libros ";
             // 
             // acerca
             // 
             this.acerca.Name = "acerca";
-            this.acerca.Size = new System.Drawing.Size(98, 23);
+            this.acerca.Size = new System.Drawing.Size(121, 28);
             this.acerca.Text = "Acerca de ";
             this.acerca.Click += new System.EventHandler(this.acerca_Click);
             // 
             // ayuda
             // 
             this.ayuda.Name = "ayuda";
-            this.ayuda.Size = new System.Drawing.Size(71, 23);
+            this.ayuda.Size = new System.Drawing.Size(88, 28);
             this.ayuda.Text = "Ayuda ";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(58, 105);
+            this.button1.Location = new System.Drawing.Point(77, 129);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 35);
+            this.button1.Size = new System.Drawing.Size(172, 43);
             this.button1.TabIndex = 1;
             this.button1.Text = "Libros nuevos ";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(58, 189);
+            this.button2.Location = new System.Drawing.Point(77, 233);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 35);
+            this.button2.Size = new System.Drawing.Size(172, 43);
             this.button2.TabIndex = 2;
             this.button2.Text = "Libros recomendados ";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(58, 248);
+            this.button3.Location = new System.Drawing.Point(77, 305);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(100, 28);
             this.button3.TabIndex = 3;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1224, 450);
+            this.ClientSize = new System.Drawing.Size(1632, 554);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
