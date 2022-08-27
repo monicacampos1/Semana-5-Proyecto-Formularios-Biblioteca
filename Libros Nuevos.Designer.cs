@@ -29,17 +29,19 @@ namespace Semana_5_proyecto_formularios_biblioteca
         /// </summary>
         private void InitializeComponent()
         {
-            this.Ejemplo = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Ejemplo
+            // label1
             // 
-            this.Ejemplo.Location = new System.Drawing.Point(398, 64);
-            this.Ejemplo.Name = "Ejemplo";
-            this.Ejemplo.Size = new System.Drawing.Size(75, 23);
-            this.Ejemplo.TabIndex = 0;
-            this.Ejemplo.Text = "Ejemplo";
-            this.Ejemplo.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.label1.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(317, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(125, 18);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Libros Nuevos";
             // 
             // Libros_Nuevos
             // 
@@ -47,15 +49,16 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Ejemplo);
+            this.Controls.Add(this.label1);
             this.Name = "Libros_Nuevos";
             this.Text = "Libros_Nuevos";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button Ejemplo;
+        private System.Windows.Forms.Label label1;
     }
 }
