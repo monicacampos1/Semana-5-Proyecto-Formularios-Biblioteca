@@ -47,5 +47,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
             Editoriales editorial = new Editoriales();
             editorial.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Libros_Nuevos libros_nuevos = new Libros_Nuevos();
+            libros_nuevos.ShowDialog();
+        }
     }
 }
