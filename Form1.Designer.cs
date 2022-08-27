@@ -35,11 +35,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.prestamosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuariosFrecuentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.empleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.editorialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reservacionDeLibrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,36 +77,20 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.prestamosToolStripMenuItem.Name = "prestamosToolStripMenuItem";
             this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.prestamosToolStripMenuItem.Text = "Prestamos";
+            this.prestamosToolStripMenuItem.Click += new System.EventHandler(this.prestamosToolStripMenuItem_Click);
             // 
             // usuariosFrecuentesToolStripMenuItem
             // 
             this.usuariosFrecuentesToolStripMenuItem.Name = "usuariosFrecuentesToolStripMenuItem";
             this.usuariosFrecuentesToolStripMenuItem.Size = new System.Drawing.Size(127, 20);
             this.usuariosFrecuentesToolStripMenuItem.Text = "Usuarios Frecuentes ";
+            this.usuariosFrecuentesToolStripMenuItem.Click += new System.EventHandler(this.usuariosFrecuentesToolStripMenuItem_Click);
             // 
             // empleadosToolStripMenuItem
             // 
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
             this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.empleadosToolStripMenuItem.Text = "Empleados ";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(58, 105);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 35);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Libros nuevos ";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(58, 189);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 35);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Libros recomendados ";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // editorialesToolStripMenuItem
             // 
@@ -125,6 +109,24 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.reservacionDeLibrosToolStripMenuItem.Name = "reservacionDeLibrosToolStripMenuItem";
             this.reservacionDeLibrosToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
             this.reservacionDeLibrosToolStripMenuItem.Text = "Reservacion de libros ";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(58, 105);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(129, 35);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Libros nuevos ";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(58, 189);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(129, 35);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Libros recomendados ";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

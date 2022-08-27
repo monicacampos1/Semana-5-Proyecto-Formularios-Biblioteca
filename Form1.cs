@@ -16,5 +16,17 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
             InitializeComponent();
         }
+
+        private void usuariosFrecuentesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 facercade = new Form2 ();
+            facercade.ShowDialog();
+        }
+
+        private void prestamosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 facercade = new Form3();
+            facercade.ShowDialog();
+        }
     }
 }
