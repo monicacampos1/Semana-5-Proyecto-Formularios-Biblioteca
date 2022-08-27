@@ -283,7 +283,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "prestamos";
-            this.Text = "Form3";
+            this.Text = "Prestamos de libros ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
