@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Form3 : Form
+    public partial class prestamos : Form
     {
-        public Form3()
+        public prestamos()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    partial class Form3
+    partial class prestamos
     {
         /// <summary>
         /// Required designer variable.
@@ -49,6 +49,8 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label10 = new System.Windows.Forms.Label();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -57,15 +59,14 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(-3, 2);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 24);
+            this.label1.Size = new System.Drawing.Size(0, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Prestamos";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 109);
+            this.label2.Location = new System.Drawing.Point(59, 107);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 16);
             this.label2.TabIndex = 1;
@@ -75,7 +76,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(10, 170);
+            this.label3.Location = new System.Drawing.Point(59, 174);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 16);
             this.label3.TabIndex = 3;
@@ -84,7 +85,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(94, 105);
+            this.comboBox1.Location = new System.Drawing.Point(134, 102);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(164, 21);
             this.comboBox1.TabIndex = 2;
@@ -92,7 +93,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(94, 167);
+            this.comboBox2.Location = new System.Drawing.Point(134, 170);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(164, 21);
             this.comboBox2.TabIndex = 4;
@@ -101,34 +102,34 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(308, 107);
+            this.label4.Location = new System.Drawing.Point(342, 107);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
+            this.label4.Size = new System.Drawing.Size(71, 16);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Edad:";
+            this.label4.Text = "Telefono : ";
             // 
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(381, 106);
+            this.comboBox3.Location = new System.Drawing.Point(446, 102);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(65, 21);
+            this.comboBox3.Size = new System.Drawing.Size(111, 21);
             this.comboBox3.TabIndex = 6;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(308, 171);
+            this.label5.Location = new System.Drawing.Point(342, 174);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 16);
+            this.label5.Size = new System.Drawing.Size(95, 16);
             this.label5.TabIndex = 7;
-            this.label5.Text = "Dui:";
+            this.label5.Text = "Identificacion : ";
             // 
             // comboBox4
             // 
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(345, 169);
+            this.comboBox4.Location = new System.Drawing.Point(446, 166);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(111, 21);
             this.comboBox4.TabIndex = 8;
@@ -137,27 +138,27 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(219, 51);
+            this.label6.Location = new System.Drawing.Point(219, 28);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 24);
+            this.label6.Size = new System.Drawing.Size(182, 24);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Datos";
+            this.label6.Text = "Datos de la persona ";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(173, 236);
+            this.label7.Location = new System.Drawing.Point(205, 238);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(166, 24);
+            this.label7.Size = new System.Drawing.Size(185, 24);
             this.label7.TabIndex = 10;
-            this.label7.Text = "Prestamo de libros";
+            this.label7.Text = "Datos del prestamos ";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(12, 300);
+            this.label8.Location = new System.Drawing.Point(82, 300);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(44, 16);
             this.label8.TabIndex = 11;
@@ -166,7 +167,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // comboBox5
             // 
             this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(62, 297);
+            this.comboBox5.Location = new System.Drawing.Point(134, 299);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(164, 21);
             this.comboBox5.TabIndex = 12;
@@ -174,7 +175,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // comboBox6
             // 
             this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(345, 295);
+            this.comboBox6.Location = new System.Drawing.Point(446, 292);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(135, 21);
             this.comboBox6.TabIndex = 13;
@@ -183,7 +184,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(297, 297);
+            this.label9.Location = new System.Drawing.Point(395, 299);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(42, 16);
             this.label9.TabIndex = 14;
@@ -191,7 +192,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 505);
+            this.button1.Location = new System.Drawing.Point(195, 505);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(83, 26);
             this.button1.TabIndex = 15;
@@ -200,7 +201,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(410, 505);
+            this.button2.Location = new System.Drawing.Point(381, 505);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(83, 26);
             this.button2.TabIndex = 16;
@@ -212,16 +213,16 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(7, 369);
+            this.label10.Location = new System.Drawing.Point(82, 369);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(49, 16);
+            this.label10.Size = new System.Drawing.Size(104, 16);
             this.label10.TabIndex = 17;
-            this.label10.Text = "Fecha:";
+            this.label10.Text = "Fecha entrega : ";
             // 
             // comboBox7
             // 
             this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(62, 368);
+            this.comboBox7.Location = new System.Drawing.Point(223, 369);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(142, 21);
             this.comboBox7.TabIndex = 18;
@@ -235,12 +236,32 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label11.TabIndex = 19;
             this.label11.Text = "..";
             // 
-            // Form3
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(82, 425);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(143, 16);
+            this.label12.TabIndex = 20;
+            this.label12.Text = "Fecha de devolucion : ";
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Location = new System.Drawing.Point(223, 425);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(142, 21);
+            this.comboBox8.TabIndex = 21;
+            // 
+            // prestamos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(505, 543);
+            this.BackColor = System.Drawing.Color.LightGreen;
+            this.ClientSize = new System.Drawing.Size(649, 543);
+            this.Controls.Add(this.comboBox8);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.comboBox7);
             this.Controls.Add(this.label10);
@@ -261,7 +282,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form3";
+            this.Name = "prestamos";
             this.Text = "Form3";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -290,5 +311,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox comboBox7;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox comboBox8;
     }
 }

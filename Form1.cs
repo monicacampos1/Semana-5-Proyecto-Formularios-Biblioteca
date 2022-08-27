@@ -19,13 +19,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void usuariosFrecuentesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 facercade = new Form2 ();
+            Usufrecuentes facercade = new Usufrecuentes ();
             facercade.ShowDialog();
         }
 
         private void prestamosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3 facercade = new Form3();
+            prestamos facercade = new prestamos();
             facercade.ShowDialog();
         }
 
@@ -33,8 +33,6 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
             acercade acerca = new acercade();
             acerca.ShowDialog();
-
-
 
         }
     }

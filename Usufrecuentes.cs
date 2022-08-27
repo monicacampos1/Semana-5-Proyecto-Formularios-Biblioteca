@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Form2 : Form
+    public partial class Usufrecuentes : Form
     {
-        public Form2()
+        public Usufrecuentes()
         {
             InitializeComponent();
         }
