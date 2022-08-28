@@ -100,5 +100,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
 
         }
+
+        private void button3_Click_2(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+       
     }
 }
