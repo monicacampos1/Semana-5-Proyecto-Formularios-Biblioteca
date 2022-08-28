@@ -110,7 +110,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.button1.BackColor = System.Drawing.Color.PaleGreen;
             this.button1.Location = new System.Drawing.Point(405, 106);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -140,19 +140,20 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.button2.BackColor = System.Drawing.Color.PaleGreen;
             this.button2.Location = new System.Drawing.Point(675, 388);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(87, 41);
             this.button2.TabIndex = 29;
             this.button2.Text = "Salir.";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Categoriass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGreen;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
