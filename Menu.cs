@@ -77,5 +77,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
             Reservación r = new Reservación();
             r.ShowDialog();
         }
+
+        private void contactosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ayuda ayuda = new Ayuda();
+            ayuda.ShowDialog();
+        }
     }
 }

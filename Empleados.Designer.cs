@@ -90,7 +90,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.labelFecha.AutoSize = true;
             this.labelFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFecha.Location = new System.Drawing.Point(270, 66);
+            this.labelFecha.Location = new System.Drawing.Point(298, 66);
             this.labelFecha.Name = "labelFecha";
             this.labelFecha.Size = new System.Drawing.Size(27, 20);
             this.labelFecha.TabIndex = 32;
@@ -105,7 +105,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             "Jefe",
             "Administrador",
             "Empleado"});
-            this.comboBoxCategoria.Location = new System.Drawing.Point(264, 251);
+            this.comboBoxCategoria.Location = new System.Drawing.Point(302, 251);
             this.comboBoxCategoria.Name = "comboBoxCategoria";
             this.comboBoxCategoria.Size = new System.Drawing.Size(121, 28);
             this.comboBoxCategoria.TabIndex = 31;
@@ -113,7 +113,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // textEmpleado
             // 
             this.textEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEmpleado.Location = new System.Drawing.Point(279, 131);
+            this.textEmpleado.Location = new System.Drawing.Point(302, 132);
             this.textEmpleado.Name = "textEmpleado";
             this.textEmpleado.Size = new System.Drawing.Size(338, 27);
             this.textEmpleado.TabIndex = 30;
@@ -121,7 +121,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // textBoxTelefono
             // 
             this.textBoxTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxTelefono.Location = new System.Drawing.Point(264, 197);
+            this.textBoxTelefono.Location = new System.Drawing.Point(302, 194);
             this.textBoxTelefono.Name = "textBoxTelefono";
             this.textBoxTelefono.Size = new System.Drawing.Size(150, 27);
             this.textBoxTelefono.TabIndex = 29;

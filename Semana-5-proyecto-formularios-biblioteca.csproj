@@ -58,6 +58,12 @@
     <Compile Include="Autores.Designer.cs">
       <DependentUpon>Autores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ayuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayuda.Designer.cs">
+      <DependentUpon>Ayuda.cs</DependentUpon>
+    </Compile>
     <Compile Include="Categoriass.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Autores.resx">
       <DependentUpon>Autores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ayuda.resx">
+      <DependentUpon>Ayuda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Categoriass.resx">
       <DependentUpon>Categoriass.cs</DependentUpon>
