@@ -106,6 +106,9 @@ namespace Semana_5_proyecto_formularios_biblioteca
             Close();
         }
 
-       
+        private void cerrarProgramaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

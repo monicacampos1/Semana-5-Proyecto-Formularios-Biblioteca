@@ -44,7 +44,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.contactosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.cerrarProgramaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,7 +67,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1028, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(1191, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -138,7 +138,8 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // ayuda
             // 
             this.ayuda.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.contactosToolStripMenuItem});
+            this.contactosToolStripMenuItem,
+            this.cerrarProgramaToolStripMenuItem});
             this.ayuda.Name = "ayuda";
             this.ayuda.Size = new System.Drawing.Size(71, 23);
             this.ayuda.Text = "Ayuda ";
@@ -146,14 +147,14 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // contactosToolStripMenuItem
             // 
             this.contactosToolStripMenuItem.Name = "contactosToolStripMenuItem";
-            this.contactosToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.contactosToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
             this.contactosToolStripMenuItem.Text = "Contactos";
             this.contactosToolStripMenuItem.Click += new System.EventHandler(this.contactosToolStripMenuItem_Click);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Azure;
-            this.button1.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(76, 123);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(140, 53);
@@ -165,7 +166,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Azure;
-            this.button2.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(76, 236);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(146, 56);
@@ -174,19 +175,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // cerrarProgramaToolStripMenuItem
             // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(107, 359);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(89, 89);
-            this.button3.TabIndex = 36;
-            this.button3.Text = "Cerrar";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click_2);
+            this.cerrarProgramaToolStripMenuItem.Name = "cerrarProgramaToolStripMenuItem";
+            this.cerrarProgramaToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.cerrarProgramaToolStripMenuItem.Text = "Cerrar Programa ";
+            this.cerrarProgramaToolStripMenuItem.Click += new System.EventHandler(this.cerrarProgramaToolStripMenuItem_Click);
             // 
             // Menu
             // 
@@ -195,8 +189,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1028, 450);
-            this.Controls.Add(this.button3);
+            this.ClientSize = new System.Drawing.Size(1191, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
@@ -227,7 +220,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private System.Windows.Forms.ToolStripMenuItem acerca;
         private System.Windows.Forms.ToolStripMenuItem ayuda;
         private System.Windows.Forms.ToolStripMenuItem contactosToolStripMenuItem;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ToolStripMenuItem cerrarProgramaToolStripMenuItem;
     }
 }
 
