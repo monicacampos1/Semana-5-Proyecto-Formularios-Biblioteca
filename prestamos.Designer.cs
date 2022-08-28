@@ -301,7 +301,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Teleforno ";
+            this.columnHeader4.Text = "Celular";
             this.columnHeader4.Width = 98;
             // 
             // columnHeader5
