@@ -69,18 +69,21 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.menuStrip1.Size = new System.Drawing.Size(1028, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // categoriasToolStripMenuItem
             // 
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
             this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(103, 23);
             this.categoriasToolStripMenuItem.Text = "Categorias ";
+            this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.categoriasToolStripMenuItem_Click);
             // 
             // autoresToolStripMenuItem
             // 
             this.autoresToolStripMenuItem.Name = "autoresToolStripMenuItem";
             this.autoresToolStripMenuItem.Size = new System.Drawing.Size(83, 23);
             this.autoresToolStripMenuItem.Text = "Autores ";
+            this.autoresToolStripMenuItem.Click += new System.EventHandler(this.autoresToolStripMenuItem_Click);
             // 
             // prestamosToolStripMenuItem
             // 

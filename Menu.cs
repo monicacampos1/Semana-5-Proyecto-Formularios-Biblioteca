@@ -83,5 +83,22 @@ namespace Semana_5_proyecto_formularios_biblioteca
             Ayuda ayuda = new Ayuda();
             ayuda.ShowDialog();
         }
+
+        private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Categoriass CG = new Categoriass();
+            CG.ShowDialog();
+        }
+
+        private void autoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Autores AT = new Autores();
+            AT.ShowDialog();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
