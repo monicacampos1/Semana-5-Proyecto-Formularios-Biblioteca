@@ -53,5 +53,17 @@ namespace Semana_5_proyecto_formularios_biblioteca
             Libros_Nuevos libros_nuevos = new Libros_Nuevos();
             libros_nuevos.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Libros_Recomendados ventana = new Libros_Recomendados();
+            ventana.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Libros_Nuevos ventana = new Libros_Nuevos();
+            ventana.Show();
+        }
     }
 }
