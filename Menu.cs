@@ -65,5 +65,17 @@ namespace Semana_5_proyecto_formularios_biblioteca
             Libros_Nuevos ventana = new Libros_Nuevos();
             ventana.Show();
         }
+
+        private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Proveedores t = new Proveedores();
+            t.ShowDialog();
+        }
+
+        private void reservacionDeLibrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Reservación r = new Reservación();
+            r.ShowDialog();
+        }
     }
 }

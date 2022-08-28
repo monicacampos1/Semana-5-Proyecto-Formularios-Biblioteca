@@ -114,12 +114,14 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
             this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(118, 23);
             this.proveedoresToolStripMenuItem.Text = "Proveedores ";
+            this.proveedoresToolStripMenuItem.Click += new System.EventHandler(this.proveedoresToolStripMenuItem_Click);
             // 
             // reservacionDeLibrosToolStripMenuItem
             // 
             this.reservacionDeLibrosToolStripMenuItem.Name = "reservacionDeLibrosToolStripMenuItem";
             this.reservacionDeLibrosToolStripMenuItem.Size = new System.Drawing.Size(181, 23);
             this.reservacionDeLibrosToolStripMenuItem.Text = "Reservacion de libros ";
+            this.reservacionDeLibrosToolStripMenuItem.Click += new System.EventHandler(this.reservacionDeLibrosToolStripMenuItem_Click);
             // 
             // acerca
             // 
