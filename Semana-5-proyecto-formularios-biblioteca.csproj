@@ -52,6 +52,12 @@
     <Compile Include="acercade.Designer.cs">
       <DependentUpon>acercade.cs</DependentUpon>
     </Compile>
+    <Compile Include="Categoriass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categoriass.Designer.cs">
+      <DependentUpon>Categoriass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Editoriales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="acercade.resx">
       <DependentUpon>acercade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categoriass.resx">
+      <DependentUpon>Categoriass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Editoriales.resx">
       <DependentUpon>Editoriales.cs</DependentUpon>
