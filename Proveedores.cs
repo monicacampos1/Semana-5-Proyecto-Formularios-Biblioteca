@@ -16,5 +16,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

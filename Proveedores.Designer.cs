@@ -62,6 +62,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.button4.Text = "Regresar";
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
