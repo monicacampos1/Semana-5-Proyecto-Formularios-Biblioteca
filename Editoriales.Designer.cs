@@ -57,9 +57,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.label4.Location = new System.Drawing.Point(454, 54);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(141, 17);
+            this.label4.Size = new System.Drawing.Size(166, 20);
             this.label4.TabIndex = 27;
             this.label4.Text = "Origen de la Editorial";
             // 
@@ -76,7 +77,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             "Ediciones el Naranjo",
             "Editorial Praxis",
             "Ficticia Editorial"});
-            this.comboBox1.Location = new System.Drawing.Point(164, 112);
+            this.comboBox1.Location = new System.Drawing.Point(186, 117);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(174, 24);
             this.comboBox1.TabIndex = 26;
@@ -84,7 +85,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // btnSalir
             // 
             this.btnSalir.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(139)))), ((int)(((byte)(82)))));
+            this.btnSalir.BackColor = System.Drawing.Color.PaleGreen;
             this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -100,7 +101,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // btnCancelar
             // 
             this.btnCancelar.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(139)))), ((int)(((byte)(82)))));
+            this.btnCancelar.BackColor = System.Drawing.Color.PaleGreen;
             this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancelar.FlatAppearance.BorderSize = 0;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -115,7 +116,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // btnRegistrar
             // 
             this.btnRegistrar.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnRegistrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(139)))), ((int)(((byte)(82)))));
+            this.btnRegistrar.BackColor = System.Drawing.Color.PaleGreen;
             this.btnRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegistrar.FlatAppearance.BorderSize = 0;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -135,11 +136,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4});
+            this.listViewCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.listViewCategoria.GridLines = true;
             this.listViewCategoria.HideSelection = false;
-            this.listViewCategoria.Location = new System.Drawing.Point(105, 351);
+            this.listViewCategoria.Location = new System.Drawing.Point(43, 351);
             this.listViewCategoria.Name = "listViewCategoria";
-            this.listViewCategoria.Size = new System.Drawing.Size(650, 220);
+            this.listViewCategoria.Size = new System.Drawing.Size(795, 220);
             this.listViewCategoria.TabIndex = 22;
             this.listViewCategoria.UseCompatibleStateImageBehavior = false;
             this.listViewCategoria.View = System.Windows.Forms.View.Details;
@@ -162,20 +164,21 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // columnHeader4
             // 
             this.columnHeader4.Text = "Origen de la editorial";
-            this.columnHeader4.Width = 164;
+            this.columnHeader4.Width = 247;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.label3.Location = new System.Drawing.Point(40, 188);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 17);
+            this.label3.Size = new System.Drawing.Size(140, 20);
             this.label3.TabIndex = 20;
             this.label3.Text = "Lugar de estante:";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(166, 188);
+            this.textBox3.Location = new System.Drawing.Point(186, 186);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 21;
@@ -183,24 +186,26 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.label2.Location = new System.Drawing.Point(39, 121);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 17);
+            this.label2.Size = new System.Drawing.Size(93, 20);
             this.label2.TabIndex = 19;
             this.label2.Text = "Editoriales:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.label1.Location = new System.Drawing.Point(39, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 17);
+            this.label1.Size = new System.Drawing.Size(138, 20);
             this.label1.TabIndex = 17;
             this.label1.Text = "ID de la Editorial:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(164, 54);
+            this.textBox1.Location = new System.Drawing.Point(183, 54);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 18;
