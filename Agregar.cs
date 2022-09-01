@@ -10,24 +10,16 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Autores : Form
+    public partial class Agregar : Form
     {
-        public Autores()
+        public Agregar()
         {
             InitializeComponent();
         }
 
-        
-
         private void button4_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Agregar ag = new  Agregar();
-            ag.ShowDialog();
         }
     }
 }
