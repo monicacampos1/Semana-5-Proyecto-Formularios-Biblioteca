@@ -64,6 +64,12 @@
     <Compile Include="Autores.Designer.cs">
       <DependentUpon>Autores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ventana de Ayuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventana de Ayuda.Designer.cs">
+      <DependentUpon>Ventana de Ayuda.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ayuda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Autores.resx">
       <DependentUpon>Autores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventana de Ayuda.resx">
+      <DependentUpon>Ventana de Ayuda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ayuda.resx">
       <DependentUpon>Ayuda.cs</DependentUpon>

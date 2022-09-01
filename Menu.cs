@@ -110,5 +110,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
             Close();
         }
+
+        private void ayudaDelSistemaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ayuda_del_Sistema sistemaAyuda = new Ayuda_del_Sistema();
+            sistemaAyuda.ShowDialog();
+        }
     }
 }
