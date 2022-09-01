@@ -29,19 +29,9 @@ namespace Semana_5_proyecto_formularios_biblioteca
         /// </summary>
         private void InitializeComponent()
         {
-            this.textContenedor = new System.Windows.Forms.TextBox();
             this.btnLeer = new System.Windows.Forms.Button();
+            this.textContenedor = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // textContenedor
-            // 
-            this.textContenedor.Location = new System.Drawing.Point(118, 71);
-            this.textContenedor.Multiline = true;
-            this.textContenedor.Name = "textContenedor";
-            this.textContenedor.ReadOnly = true;
-            this.textContenedor.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textContenedor.Size = new System.Drawing.Size(566, 326);
-            this.textContenedor.TabIndex = 2;
             // 
             // btnLeer
             // 
@@ -61,14 +51,24 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnLeer.UseVisualStyleBackColor = false;
             this.btnLeer.Click += new System.EventHandler(this.btnLeer_Click_2);
             // 
+            // textContenedor
+            // 
+            this.textContenedor.Location = new System.Drawing.Point(118, 103);
+            this.textContenedor.Multiline = true;
+            this.textContenedor.Name = "textContenedor";
+            this.textContenedor.ReadOnly = true;
+            this.textContenedor.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textContenedor.Size = new System.Drawing.Size(566, 326);
+            this.textContenedor.TabIndex = 23;
+            // 
             // Ayuda_del_Sistema
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
             this.ClientSize = new System.Drawing.Size(802, 533);
-            this.Controls.Add(this.btnLeer);
             this.Controls.Add(this.textContenedor);
+            this.Controls.Add(this.btnLeer);
             this.Name = "Ayuda_del_Sistema";
             this.Text = "Ventana de Ayuda";
             this.Load += new System.EventHandler(this.Ayuda_del_Sistema_Load);
@@ -78,7 +78,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textContenedor;
         private System.Windows.Forms.Button btnLeer;
+        private System.Windows.Forms.TextBox textContenedor;
     }
 }
