@@ -19,19 +19,18 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if ((label2.Text != "") && (label3.Text != "")) ;
+            if (textBox1.Text == "Admin" || textBox2.Text == "12345")
             {
-                if ((label2.Text != "Admin") && (label3.Text != "12345")) ;
-                {
+                Menu f1 = new Menu ();
+                f1.Show();
+                this.Hide();
 
-                    Menu ventana = new Menu();
-                    ventana.Show();
-                    MessageBox.Show(" Bienvenido al programa");
-                    this.Hide();
 
-                }
             }
+            else
+                MessageBox.Show("usuario o contraseña incorrecta", " Nose encontro usuario", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
         }
     }
-    }
-
+}
+    
