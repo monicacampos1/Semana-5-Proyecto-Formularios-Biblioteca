@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Reservación : Form
+    public partial class Proveedores_registro_ : Form
     {
-        public Reservación()
+        public Proveedores_registro_()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

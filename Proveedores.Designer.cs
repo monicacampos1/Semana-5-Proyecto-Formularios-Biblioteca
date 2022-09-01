@@ -50,11 +50,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(8, 359);
+            this.label7.Location = new System.Drawing.Point(14, 359);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(194, 20);
+            this.label7.Size = new System.Drawing.Size(224, 20);
             this.label7.TabIndex = 45;
-            this.label7.Text = "Nombre de la empresa:";
+            this.label7.Text = "Nombre de la distribuidora:";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox4
@@ -86,7 +86,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(8, 231);
+            this.label4.Location = new System.Drawing.Point(14, 231);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(113, 20);
             this.label4.TabIndex = 39;
@@ -122,7 +122,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(8, 85);
+            this.label2.Location = new System.Drawing.Point(14, 85);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(190, 20);
             this.label2.TabIndex = 35;
