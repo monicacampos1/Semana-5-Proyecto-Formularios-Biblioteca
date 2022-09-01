@@ -99,9 +99,9 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button4.Location = new System.Drawing.Point(710, 399);
+            this.button4.Location = new System.Drawing.Point(720, 399);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(87, 49);
+            this.button4.Size = new System.Drawing.Size(77, 49);
             this.button4.TabIndex = 52;
             this.button4.Text = "Regresar";
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;

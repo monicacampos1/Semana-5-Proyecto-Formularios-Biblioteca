@@ -42,9 +42,9 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.acerca = new System.Windows.Forms.ToolStripMenuItem();
             this.ayuda = new System.Windows.Forms.ToolStripMenuItem();
             this.contactosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarProgramaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.cerrarProgramaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,8 +75,8 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // categoriasToolStripMenuItem
             // 
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
-            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(103, 23);
-            this.categoriasToolStripMenuItem.Text = "Categorias ";
+            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(66, 23);
+            this.categoriasToolStripMenuItem.Text = "Libros";
             this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.categoriasToolStripMenuItem_Click);
             // 
             // autoresToolStripMenuItem
@@ -151,6 +151,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.contactosToolStripMenuItem.Text = "Contactos";
             this.contactosToolStripMenuItem.Click += new System.EventHandler(this.contactosToolStripMenuItem_Click);
             // 
+            // cerrarProgramaToolStripMenuItem
+            // 
+            this.cerrarProgramaToolStripMenuItem.Name = "cerrarProgramaToolStripMenuItem";
+            this.cerrarProgramaToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
+            this.cerrarProgramaToolStripMenuItem.Text = "Cerrar Programa ";
+            this.cerrarProgramaToolStripMenuItem.Click += new System.EventHandler(this.cerrarProgramaToolStripMenuItem_Click);
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Azure;
@@ -174,13 +181,6 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.button2.Text = "Libros recomendados ";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // cerrarProgramaToolStripMenuItem
-            // 
-            this.cerrarProgramaToolStripMenuItem.Name = "cerrarProgramaToolStripMenuItem";
-            this.cerrarProgramaToolStripMenuItem.Size = new System.Drawing.Size(202, 24);
-            this.cerrarProgramaToolStripMenuItem.Text = "Cerrar Programa ";
-            this.cerrarProgramaToolStripMenuItem.Click += new System.EventHandler(this.cerrarProgramaToolStripMenuItem_Click);
             // 
             // Menu
             // 
