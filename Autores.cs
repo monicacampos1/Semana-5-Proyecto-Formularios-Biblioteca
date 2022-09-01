@@ -24,9 +24,15 @@ namespace Semana_5_proyecto_formularios_biblioteca
             Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+        private void btnSalir_Click(object sender, EventArgs e)
         {
-            Agregar ag = new  Agregar();
+            Close();
+        }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            Agregar ag = new Agregar();
             ag.ShowDialog();
         }
     }

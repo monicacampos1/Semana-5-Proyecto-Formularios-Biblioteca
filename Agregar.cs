@@ -21,5 +21,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
             Close();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

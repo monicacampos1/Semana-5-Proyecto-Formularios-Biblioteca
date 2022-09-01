@@ -29,14 +29,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Agregar));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -83,30 +82,38 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.textBox2.Size = new System.Drawing.Size(211, 20);
             this.textBox2.TabIndex = 6;
             // 
-            // button2
+            // btnRegistrar
             // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(613, 399);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 49);
-            this.button2.TabIndex = 8;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnRegistrar.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.btnRegistrar.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegistrar.FlatAppearance.BorderSize = 0;
+            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.Location = new System.Drawing.Point(539, 407);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(97, 32);
+            this.btnRegistrar.TabIndex = 48;
+            this.btnRegistrar.Text = "Resistrar";
+            this.btnRegistrar.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnSalir
             // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button4.Location = new System.Drawing.Point(720, 399);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(77, 49);
-            this.button4.TabIndex = 52;
-            this.button4.Text = "Regresar";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnSalir.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.btnSalir.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalir.FlatAppearance.BorderSize = 0;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(677, 407);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(97, 32);
+            this.btnSalir.TabIndex = 50;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // Agregar
             // 
@@ -114,8 +121,8 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
@@ -135,7 +142,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnRegistrar;
+        private System.Windows.Forms.Button btnSalir;
     }
 }

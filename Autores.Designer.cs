@@ -29,19 +29,19 @@ namespace Semana_5_proyecto_formularios_biblioteca
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
             "Miguel de Cervantes",
             "Don Quijote de la mancha"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
             "Alfred Döblin",
             "Berlin Alexanderplatz"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
             "Federico García Lorca",
             "Romancero gitano"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
             "Denis Diderot",
             "Jacques el fatalista"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
             "Louis-Ferdinand Céline",
             "Viaje al fin de la noche"}, -1);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Autores));
@@ -78,11 +78,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.listViewCategoria.GridLines = true;
             this.listViewCategoria.HideSelection = false;
             this.listViewCategoria.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem11,
-            listViewItem12,
-            listViewItem13,
-            listViewItem14,
-            listViewItem15});
+            listViewItem21,
+            listViewItem22,
+            listViewItem23,
+            listViewItem24,
+            listViewItem25});
             this.listViewCategoria.Location = new System.Drawing.Point(102, 171);
             this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.listViewCategoria.Name = "listViewCategoria";
@@ -149,13 +149,14 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnRegistrar.FlatAppearance.BorderSize = 0;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(551, 407);
+            this.btnRegistrar.Location = new System.Drawing.Point(467, 407);
             this.btnRegistrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(97, 32);
+            this.btnRegistrar.Size = new System.Drawing.Size(171, 32);
             this.btnRegistrar.TabIndex = 53;
-            this.btnRegistrar.Text = "Resistrar";
+            this.btnRegistrar.Text = "Agregar nuevo autor";
             this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnSalir
             // 
@@ -165,13 +166,14 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(692, 407);
+            this.btnSalir.Location = new System.Drawing.Point(679, 407);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(97, 32);
             this.btnSalir.TabIndex = 54;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // Autores
             // 
