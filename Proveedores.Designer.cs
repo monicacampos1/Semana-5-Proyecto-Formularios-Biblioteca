@@ -156,6 +156,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnRegistrar.TabIndex = 47;
             this.btnRegistrar.Text = "Resistrar";
             this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnCancelar
             // 
@@ -188,6 +189,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnSalir.TabIndex = 49;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // textBox5
             // 

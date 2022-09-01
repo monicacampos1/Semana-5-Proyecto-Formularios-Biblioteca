@@ -24,7 +24,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Reservaciones rb = new Reservaciones();
+            rb.ShowDialog();
+        }
 
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

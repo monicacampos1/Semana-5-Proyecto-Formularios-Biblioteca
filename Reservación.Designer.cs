@@ -238,6 +238,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnSalir.TabIndex = 36;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // button1
             // 

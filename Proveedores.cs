@@ -21,5 +21,16 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
             Close();
         }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            Proveedores_registro_ rp = new Proveedores_registro_ ();
+            rp.ShowDialog();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
