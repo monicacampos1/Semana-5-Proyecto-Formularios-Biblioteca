@@ -50,14 +50,14 @@ namespace Semana_5_proyecto_formularios_biblioteca
                 //conexion.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data 
                 //System.LocalDataStoreSlot Source  = C:\Users\MINEDUCYT\Desktop\Ciclo 2\Programacion 1\base\login1.mdb; Persist Security Info = False; "; 
 
-                conexion.ConnectionString = @" Provider=Microsoft.Jet.OLEDB.4.0;Data Source = C:\Users\MINEDUCYT\Desktop\Ciclo 2\Programacion 1\base\login1.mdb";
+                conexion.ConnectionString = @" Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\MINEDUCYT\Desktop\CICLO 2\Programación computacional I\basededatos\computo2.accdb";
 
                 //Abriendo conexion 
                 conexion.Open();
 
                 //Consulta a tabla de usuarios en la base de datos 
                 //Para encontrar fila que tiene los datos del usuario y clave ingresados 
-                OleDbDataAdapter consulta = new OleDbDataAdapter("SELECT * FROM usuarios",
+                OleDbDataAdapter consulta = new OleDbDataAdapter("SELECT * FROM usuario",
                  conexion);
 
                 //OleDbDataReader reader = command.ExecuteReader(); 
