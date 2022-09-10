@@ -32,10 +32,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(inicio));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtcontra = new System.Windows.Forms.TextBox();
+            this.txtusu = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,30 +55,30 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.button1.BackColor = System.Drawing.Color.DarkTurquoise;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(122, 392);
+            this.button1.Location = new System.Drawing.Point(37, 426);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(361, 36);
+            this.button1.Size = new System.Drawing.Size(135, 46);
             this.button1.TabIndex = 17;
-            this.button1.Text = "Iniciar sesiòn ";
+            this.button1.Text = "SQL Server ";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox2
+            // txtcontra
             // 
-            this.textBox2.Location = new System.Drawing.Point(187, 323);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(229, 20);
-            this.textBox2.TabIndex = 16;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtcontra.Location = new System.Drawing.Point(187, 323);
+            this.txtcontra.Name = "txtcontra";
+            this.txtcontra.PasswordChar = '*';
+            this.txtcontra.Size = new System.Drawing.Size(229, 20);
+            this.txtcontra.TabIndex = 16;
+            this.txtcontra.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox1
+            // txtusu
             // 
-            this.textBox1.Location = new System.Drawing.Point(187, 223);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(229, 20);
-            this.textBox1.TabIndex = 15;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtusu.Location = new System.Drawing.Point(187, 223);
+            this.txtusu.Name = "txtusu";
+            this.txtusu.Size = new System.Drawing.Size(229, 20);
+            this.txtusu.TabIndex = 15;
+            this.txtusu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -98,15 +100,39 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label2.TabIndex = 13;
             this.label2.Text = "Ingresar usuario ";
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(429, 426);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(135, 46);
+            this.button2.TabIndex = 19;
+            this.button2.Text = "MySQL";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(229, 426);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(135, 46);
+            this.button3.TabIndex = 20;
+            this.button3.Text = "Access";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
             // inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(604, 450);
+            this.ClientSize = new System.Drawing.Size(615, 504);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtcontra);
+            this.Controls.Add(this.txtusu);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Name = "inicio";
@@ -121,9 +147,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtcontra;
+        private System.Windows.Forms.TextBox txtusu;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }

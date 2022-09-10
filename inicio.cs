@@ -19,7 +19,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "Admin" || textBox2.Text == "12345")
+            if (txtusu.Text == "Admin" || txtcontra.Text == "12345")
             {
                 Menu f1 = new Menu ();
                 f1.Show();
