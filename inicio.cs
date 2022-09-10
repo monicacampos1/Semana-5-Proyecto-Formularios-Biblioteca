@@ -94,18 +94,68 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void button2_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void btnsql_Click(object sender, EventArgs e)
+        {
+            // Boton de SQL
+            try
+            {
+                //crear la conexion 
+                SqlConnection conexion = new SqlConnection(@"Data Source=LAPTOP-S8G6VCAT; database= usuarios; integrated security= true");
+
+                //abrir conexion 
+                conexion.Open();
+
+                //cadena de consulta 
+                string consultax;
+
+                consultax = "select nombre, clave from usuarios where nombre = '" + txtusu.Text +
+                "'And clave = '" + txtcontra.Text + "' ";
+
+                SqlCommand consulta = new SqlCommand(consultax, conexion);
+
+                //ejecuta una instruccion de sql devolviendo el numero de filas encontradas 
+                consulta.ExecuteNonQuery();
+                DataSet ds = new DataSet();
+                SqlDataAdapter da = new SqlDataAdapter(consulta);
+
+                //Llenando el dataAdapter con los datos de la tabla 
+                da.Fill(ds, "login");
+
+                //fila de la tabla con la que se trabajara 
+                DataRow registro;
+                registro = ds.Tables["login"].Rows[0];
+
+                //evaluando que clave y usuario sean correctos 
+                if ((txtusu.Text == registro["nombre"].ToString()) || (txtcontra.Text ==
+                registro["clave"].ToString()))
+                {
+                    //llamando formulario principal llamado menu 
+                    Menu fm = new Menu();
+                    fm.Show(); //abrir menu 
+                    this.Hide();//ocultar el formulario de login 
+                }
+
+            }
+            catch
+            {
+                //en caso que la clave sea incorrecta mostrar mensaje de error 
+                MessageBox.Show("Error de usuario o clave de acceso", "Error", MessageBoxButtons.OK,
+                MessageBoxIcon.Error);
+            }
+
+
+        }
+    }
     }
 
-    }
+    
 
     
 

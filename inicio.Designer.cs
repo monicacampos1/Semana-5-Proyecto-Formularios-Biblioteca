@@ -45,9 +45,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(226, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(301, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(233, 132);
+            this.pictureBox1.Size = new System.Drawing.Size(311, 162);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
@@ -56,9 +57,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.loginsin.BackColor = System.Drawing.Color.DarkTurquoise;
             this.loginsin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginsin.Location = new System.Drawing.Point(32, 426);
+            this.loginsin.Location = new System.Drawing.Point(43, 524);
+            this.loginsin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.loginsin.Name = "loginsin";
-            this.loginsin.Size = new System.Drawing.Size(135, 46);
+            this.loginsin.Size = new System.Drawing.Size(180, 57);
             this.loginsin.TabIndex = 17;
             this.loginsin.Text = "Login sin base ";
             this.loginsin.UseVisualStyleBackColor = false;
@@ -66,18 +68,20 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // txtcontra
             // 
-            this.txtcontra.Location = new System.Drawing.Point(230, 330);
+            this.txtcontra.Location = new System.Drawing.Point(307, 406);
+            this.txtcontra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtcontra.Name = "txtcontra";
             this.txtcontra.PasswordChar = '*';
-            this.txtcontra.Size = new System.Drawing.Size(229, 20);
+            this.txtcontra.Size = new System.Drawing.Size(304, 22);
             this.txtcontra.TabIndex = 16;
             this.txtcontra.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtusu
             // 
-            this.txtusu.Location = new System.Drawing.Point(230, 215);
+            this.txtusu.Location = new System.Drawing.Point(307, 265);
+            this.txtusu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtusu.Name = "txtusu";
-            this.txtusu.Size = new System.Drawing.Size(229, 20);
+            this.txtusu.Size = new System.Drawing.Size(304, 22);
             this.txtusu.TabIndex = 15;
             this.txtusu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -85,9 +89,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(274, 276);
+            this.label3.Location = new System.Drawing.Point(365, 340);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 16);
+            this.label3.Size = new System.Drawing.Size(158, 20);
             this.label3.TabIndex = 14;
             this.label3.Text = "Ingresar contraseña";
             // 
@@ -95,9 +100,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(285, 182);
+            this.label2.Location = new System.Drawing.Point(380, 224);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 16);
+            this.label2.Size = new System.Drawing.Size(135, 20);
             this.label2.TabIndex = 13;
             this.label2.Text = "Ingresar usuario ";
             // 
@@ -105,9 +111,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.btnmysql.BackColor = System.Drawing.Color.DarkTurquoise;
             this.btnmysql.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnmysql.Location = new System.Drawing.Point(546, 426);
+            this.btnmysql.Location = new System.Drawing.Point(728, 524);
+            this.btnmysql.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnmysql.Name = "btnmysql";
-            this.btnmysql.Size = new System.Drawing.Size(135, 46);
+            this.btnmysql.Size = new System.Drawing.Size(180, 57);
             this.btnmysql.TabIndex = 19;
             this.btnmysql.Text = "MySQL";
             this.btnmysql.UseVisualStyleBackColor = false;
@@ -117,9 +124,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.btnaccess.BackColor = System.Drawing.Color.DarkTurquoise;
             this.btnaccess.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnaccess.Location = new System.Drawing.Point(374, 426);
+            this.btnaccess.Location = new System.Drawing.Point(499, 524);
+            this.btnaccess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnaccess.Name = "btnaccess";
-            this.btnaccess.Size = new System.Drawing.Size(135, 46);
+            this.btnaccess.Size = new System.Drawing.Size(180, 57);
             this.btnaccess.TabIndex = 20;
             this.btnaccess.Text = "Access";
             this.btnaccess.UseVisualStyleBackColor = false;
@@ -129,19 +137,20 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.btnsql.BackColor = System.Drawing.Color.DarkTurquoise;
             this.btnsql.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsql.Location = new System.Drawing.Point(203, 426);
+            this.btnsql.Location = new System.Drawing.Point(272, 524);
+            this.btnsql.Margin = new System.Windows.Forms.Padding(4);
             this.btnsql.Name = "btnsql";
-            this.btnsql.Size = new System.Drawing.Size(135, 46);
-            this.btnsql.TabIndex = 21;
+            this.btnsql.Size = new System.Drawing.Size(180, 57);
+            this.btnsql.TabIndex = 22;
             this.btnsql.Text = "SQL Server ";
             this.btnsql.UseVisualStyleBackColor = false;
-            this.btnsql.Click += new System.EventHandler(this.button4_Click);
+            this.btnsql.Click += new System.EventHandler(this.btnsql_Click);
             // 
             // inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(716, 504);
+            this.ClientSize = new System.Drawing.Size(955, 620);
             this.Controls.Add(this.btnsql);
             this.Controls.Add(this.btnaccess);
             this.Controls.Add(this.btnmysql);
@@ -151,6 +160,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.txtusu);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "inicio";
             this.Text = "inicio";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

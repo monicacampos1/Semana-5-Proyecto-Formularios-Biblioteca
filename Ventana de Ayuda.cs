@@ -23,15 +23,15 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void Ayuda_del_Sistema_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnLeer_Click_2(object sender, EventArgs e)
-        {
             string ubicacion = carpeta + archivo;
 
             string leer = System.IO.File.ReadAllText(ubicacion);
             textContenedor.Text = leer;
+        }
+
+        private void btnLeer_Click_2(object sender, EventArgs e)
+        {
+            
         }
     }
 }

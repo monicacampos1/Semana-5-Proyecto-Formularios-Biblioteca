@@ -29,30 +29,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnLeer = new System.Windows.Forms.Button();
             this.textContenedor = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // btnLeer
-            // 
-            this.btnLeer.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnLeer.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnLeer.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLeer.FlatAppearance.BorderSize = 0;
-            this.btnLeer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnLeer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLeer.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnLeer.Location = new System.Drawing.Point(269, 441);
-            this.btnLeer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnLeer.Name = "btnLeer";
-            this.btnLeer.Size = new System.Drawing.Size(280, 50);
-            this.btnLeer.TabIndex = 22;
-            this.btnLeer.Text = "Leer información de ayuda";
-            this.btnLeer.UseVisualStyleBackColor = false;
-            this.btnLeer.Click += new System.EventHandler(this.btnLeer_Click_2);
-            // 
             // textContenedor
             // 
+            this.textContenedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.textContenedor.Location = new System.Drawing.Point(118, 103);
             this.textContenedor.Multiline = true;
             this.textContenedor.Name = "textContenedor";
@@ -68,7 +50,6 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
             this.ClientSize = new System.Drawing.Size(802, 533);
             this.Controls.Add(this.textContenedor);
-            this.Controls.Add(this.btnLeer);
             this.Name = "Ayuda_del_Sistema";
             this.Text = "Ventana de Ayuda";
             this.Load += new System.EventHandler(this.Ayuda_del_Sistema_Load);
@@ -78,7 +59,6 @@ namespace Semana_5_proyecto_formularios_biblioteca
         }
 
         #endregion
-        private System.Windows.Forms.Button btnLeer;
         private System.Windows.Forms.TextBox textContenedor;
     }
 }
