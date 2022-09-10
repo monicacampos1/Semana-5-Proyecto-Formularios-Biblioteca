@@ -93,8 +93,34 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // conexion.Close();
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //crear la conexion 
+            SqlConnection conexion = new SqlConnection(@"Data Source=DESKTOP-NFDMETJ;Initial Catalog=login;Integrated Security=True");
+
+            //abrir conexion 
+            conexion.Open();
+
+            //cadena de consulta 
+            string consultax;
+
+            consultax = "select nombre, clave from usuarios where nombre = '" + txtusu.Text +
+            "'And clave = '" + txtcontra.Text + "' ";
+
+            SqlCommand consulta = new SqlCommand(consultax, conexion);
+
+            //ejecuta una instruccion de sql devolviendo el numero de filas encontradas 
+            consulta.ExecuteNonQuery();
+            DataSet ds = new DataSet();
+            SqlDataAdapter da = new SqlDataAdapter(consulta);
+
+            //Llenando el dataAdapter con los datos de la tabla 
+            da.Fill(ds, "login");
+        }
+    }
     }
 
-    }
+    
 
     
