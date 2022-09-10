@@ -31,14 +31,14 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(inicio));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.loginsin = new System.Windows.Forms.Button();
             this.txtcontra = new System.Windows.Forms.TextBox();
             this.txtusu = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnmysql = new System.Windows.Forms.Button();
+            this.btnaccess = new System.Windows.Forms.Button();
+            this.btnsql = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,21 +52,21 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // loginsin
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(37, 426);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 46);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "SQL Server ";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.loginsin.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.loginsin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginsin.Location = new System.Drawing.Point(32, 426);
+            this.loginsin.Name = "loginsin";
+            this.loginsin.Size = new System.Drawing.Size(135, 46);
+            this.loginsin.TabIndex = 17;
+            this.loginsin.Text = "Login sin base ";
+            this.loginsin.UseVisualStyleBackColor = false;
+            this.loginsin.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtcontra
             // 
-            this.txtcontra.Location = new System.Drawing.Point(230, 319);
+            this.txtcontra.Location = new System.Drawing.Point(230, 330);
             this.txtcontra.Name = "txtcontra";
             this.txtcontra.PasswordChar = '*';
             this.txtcontra.Size = new System.Drawing.Size(229, 20);
@@ -101,51 +101,52 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label2.TabIndex = 13;
             this.label2.Text = "Ingresar usuario ";
             // 
-            // button2
+            // btnmysql
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(347, 426);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 46);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "MySQL";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnmysql.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnmysql.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmysql.Location = new System.Drawing.Point(546, 426);
+            this.btnmysql.Name = "btnmysql";
+            this.btnmysql.Size = new System.Drawing.Size(135, 46);
+            this.btnmysql.TabIndex = 19;
+            this.btnmysql.Text = "MySQL";
+            this.btnmysql.UseVisualStyleBackColor = false;
+            this.btnmysql.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnaccess
             // 
-            this.button3.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(190, 426);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(135, 46);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "Access";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnaccess.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnaccess.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnaccess.Location = new System.Drawing.Point(374, 426);
+            this.btnaccess.Name = "btnaccess";
+            this.btnaccess.Size = new System.Drawing.Size(135, 46);
+            this.btnaccess.TabIndex = 20;
+            this.btnaccess.Text = "Access";
+            this.btnaccess.UseVisualStyleBackColor = false;
+            this.btnaccess.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // btnsql
             // 
-            this.button4.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(501, 426);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(135, 46);
-            this.button4.TabIndex = 21;
-            this.button4.Text = "Login sin base";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnsql.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnsql.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsql.Location = new System.Drawing.Point(203, 426);
+            this.btnsql.Name = "btnsql";
+            this.btnsql.Size = new System.Drawing.Size(135, 46);
+            this.btnsql.TabIndex = 21;
+            this.btnsql.Text = "SQL Server ";
+            this.btnsql.UseVisualStyleBackColor = false;
+            this.btnsql.Click += new System.EventHandler(this.button4_Click);
             // 
             // inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(656, 504);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(716, 504);
+            this.Controls.Add(this.btnsql);
+            this.Controls.Add(this.btnaccess);
+            this.Controls.Add(this.btnmysql);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.loginsin);
             this.Controls.Add(this.txtcontra);
             this.Controls.Add(this.txtusu);
             this.Controls.Add(this.label3);
@@ -161,13 +162,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button loginsin;
         private System.Windows.Forms.TextBox txtcontra;
         private System.Windows.Forms.TextBox txtusu;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnmysql;
+        private System.Windows.Forms.Button btnaccess;
+        private System.Windows.Forms.Button btnsql;
     }
 }
