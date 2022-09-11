@@ -204,7 +204,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menu";
-            this.Text = "Menu.";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
