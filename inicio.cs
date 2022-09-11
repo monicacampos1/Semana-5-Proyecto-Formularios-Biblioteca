@@ -84,7 +84,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             {
                 MessageBox.Show(err.Message);
                 //en caso que usuario y clave sean incorrectos mostrar mensaje de error 
-                MessageBox.Show("Error de usuario o clave de acceso", "Error", MessageBoxButtons.OK,
+                MessageBox.Show("Error de usuario o Clave de acceso", "Error", MessageBoxButtons.OK,
                 MessageBoxIcon.Error);
                 txtusu.Focus();
             }
@@ -150,6 +150,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
                 MessageBoxIcon.Error);
             }
 
+
+        }
+
+        private void inicio_Load(object sender, EventArgs e)
+        {
 
         }
     }
