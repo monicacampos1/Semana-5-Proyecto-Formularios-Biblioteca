@@ -146,7 +146,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             catch
             {
                 //en caso que la clave sea incorrecta mostrar mensaje de error 
-                MessageBox.Show("Error de usuario o clave de acceso", "Error", MessageBoxButtons.OK,
+                MessageBox.Show("Error de usuario o Clave de acceso", "Error", MessageBoxButtons.OK,
                 MessageBoxIcon.Error);
             }
 
