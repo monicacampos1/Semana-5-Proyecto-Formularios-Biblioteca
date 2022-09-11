@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data.OleDb;
 using System.Data;
-
+using MySql.Data.MySqlClient;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
@@ -98,8 +98,45 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void button2_Click(object sender, EventArgs e)
         {
+            try
 
-        }
+            {
+
+                MySqlConnection conn = new MySqlConnection("server=localhost;user id=biblioteca01;persistsecurityinfo=True;database=biblio");
+
+                conn.Open();
+
+                MySqlCommand Pedir = new MySqlCommand("Select nombres, claves from prueba where nombres = '" + txtusu.Text + "'And claves = '" + txtcontra.Text + "'", conn);
+                Pedir.ExecuteNonQuery();
+                DataSet fe = new DataSet();
+                MySqlDataAdapter te = new MySqlDataAdapter(Pedir);
+
+                te.Fill(fe,"prueba");
+
+                DataRow res;
+                res = fe.Tables["prueba"].Rows[0];
+
+                if ((txtusu.Text == res["nombres"].ToString()) || (txtcontra.Text == res["claves"].ToString()))
+                {
+
+                    Menu fprincipal = new Menu();
+                    fprincipal.Show();
+                    this.Hide();
+                }
+
+            }
+            catch
+            {
+
+
+                txtusu.Clear();
+                txtcontra.Clear();
+
+                MessageBox.Show("Error de usuario o clave de acceso", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+        
+    }
 
         private void btnsql_Click(object sender, EventArgs e)
         {
