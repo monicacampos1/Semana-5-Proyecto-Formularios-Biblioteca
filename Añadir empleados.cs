@@ -29,8 +29,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Empleados atrasEmpleados = new Empleados();
-            atrasEmpleados.ShowDialog();
+            Close(); 
         }
     }
 }

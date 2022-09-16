@@ -49,10 +49,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnAñadir.FlatAppearance.BorderSize = 0;
             this.btnAñadir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAñadir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAñadir.Location = new System.Drawing.Point(520, 194);
-            this.btnAñadir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAñadir.Location = new System.Drawing.Point(30, 360);
+            this.btnAñadir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAñadir.Name = "btnAñadir";
-            this.btnAñadir.Size = new System.Drawing.Size(248, 39);
+            this.btnAñadir.Size = new System.Drawing.Size(237, 32);
             this.btnAñadir.TabIndex = 24;
             this.btnAñadir.Text = "Añadir una nueva editorial";
             this.btnAñadir.UseVisualStyleBackColor = false;
@@ -66,13 +66,14 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnMostrar.FlatAppearance.BorderSize = 0;
             this.btnMostrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrar.Location = new System.Drawing.Point(89, 194);
-            this.btnMostrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnMostrar.Location = new System.Drawing.Point(499, 360);
+            this.btnMostrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(215, 39);
+            this.btnMostrar.Size = new System.Drawing.Size(161, 32);
             this.btnMostrar.TabIndex = 23;
-            this.btnMostrar.Text = "Mostrar las editoriales";
+            this.btnMostrar.Text = "Salir ";
             this.btnMostrar.UseVisualStyleBackColor = false;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // listViewCategoria
             // 
@@ -85,10 +86,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.listViewCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listViewCategoria.GridLines = true;
             this.listViewCategoria.HideSelection = false;
-            this.listViewCategoria.Location = new System.Drawing.Point(40, 300);
-            this.listViewCategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listViewCategoria.Location = new System.Drawing.Point(30, 145);
+            this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listViewCategoria.Name = "listViewCategoria";
-            this.listViewCategoria.Size = new System.Drawing.Size(795, 221);
+            this.listViewCategoria.Size = new System.Drawing.Size(630, 180);
             this.listViewCategoria.TabIndex = 22;
             this.listViewCategoria.UseCompatibleStateImageBehavior = false;
             this.listViewCategoria.View = System.Windows.Forms.View.Details;
@@ -117,9 +118,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(389, 55);
+            this.label1.Location = new System.Drawing.Point(310, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 25);
+            this.label1.Size = new System.Drawing.Size(83, 20);
             this.label1.TabIndex = 25;
             this.label1.Text = "Editoriales";
             // 
@@ -127,32 +129,34 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(84, 110);
+            this.label2.Location = new System.Drawing.Point(63, 89);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 25);
+            this.label2.Size = new System.Drawing.Size(63, 20);
             this.label2.TabIndex = 26;
             this.label2.Text = "Buscar:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(180, 114);
+            this.textBox1.Location = new System.Drawing.Point(135, 93);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(226, 22);
+            this.textBox1.Size = new System.Drawing.Size(170, 20);
             this.textBox1.TabIndex = 27;
             // 
             // Editoriales
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
-            this.ClientSize = new System.Drawing.Size(871, 548);
+            this.ClientSize = new System.Drawing.Size(695, 441);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAñadir);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.listViewCategoria);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Editoriales";
             this.Text = "Editoriales";
             this.Load += new System.EventHandler(this.Editoriales_Load);

@@ -20,8 +20,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private void btnSalir_Click(object sender, EventArgs e)
         {
 
-            Editoriales atraseditoriales = new Editoriales();
-            atraseditoriales.ShowDialog();
+            Close(); 
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

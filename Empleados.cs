@@ -24,8 +24,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            Añadir_empleados nuevoEmpleado = new Añadir_empleados();
-            nuevoEmpleado.ShowDialog();
+            Añadir_empleados nuevaEditorial = new Añadir_empleados();
+            nuevaEditorial.ShowDialog();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Close(); 
         }
     }
 }

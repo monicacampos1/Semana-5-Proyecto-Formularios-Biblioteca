@@ -32,5 +32,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             Añadir_editorial nuevaEditorial = new Añadir_editorial();
             nuevaEditorial.ShowDialog();
         }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

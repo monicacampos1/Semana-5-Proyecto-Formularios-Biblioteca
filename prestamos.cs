@@ -24,8 +24,20 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void button1_Click(object sender, EventArgs e)
         {
-            prestamos  facercade = new prestamos();
+            
+
+
+        }
+
+        private void btnAñadir_Click(object sender, EventArgs e)
+        {
+            datosprestamos facercade = new datosprestamos();
             facercade.ShowDialog();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Close(); 
         }
     }
 }

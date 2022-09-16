@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Datos : Form
+    public partial class datosprestamos : Form
     {
-        public Datos()
+        public datosprestamos()
         {
             InitializeComponent();
         }
@@ -20,6 +20,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
