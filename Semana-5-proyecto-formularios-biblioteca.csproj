@@ -125,6 +125,23 @@
     <Compile Include="datosprestamos.Designer.cs">
       <DependentUpon>datosprestamos.cs</DependentUpon>
     </Compile>
+    <Compile Include="flogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="flogin.Designer.cs">
+      <DependentUpon>flogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fusuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fusuarios.Designer.cs">
+      <DependentUpon>fusuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sistemausuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sistemausuDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Ventana de Ayuda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -235,6 +252,12 @@
     <EmbeddedResource Include="datosprestamos.resx">
       <DependentUpon>datosprestamos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="flogin.resx">
+      <DependentUpon>flogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fusuarios.resx">
+      <DependentUpon>fusuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ventana de Ayuda.resx">
       <DependentUpon>Ventana de Ayuda.cs</DependentUpon>
     </EmbeddedResource>
@@ -299,9 +322,25 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="sistemausuDataSet.xsc">
+      <DependentUpon>sistemausuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sistemausuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sistemausuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sistemausuDataSet.xss">
+      <DependentUpon>sistemausuDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sistemausu.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

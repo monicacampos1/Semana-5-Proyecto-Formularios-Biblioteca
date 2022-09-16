@@ -35,7 +35,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
-
+            Close(); 
         }
     }
 }
