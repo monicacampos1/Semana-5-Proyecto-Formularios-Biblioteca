@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class prestamos : Form
+    public partial class Datos : Form
     {
-        public prestamos()
+        public Datos()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Close();
-        }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            prestamos  facercade = new prestamos();
-            facercade.ShowDialog();
         }
     }
 }
