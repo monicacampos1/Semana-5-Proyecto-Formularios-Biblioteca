@@ -107,6 +107,18 @@
     <Compile Include="Autores.Designer.cs">
       <DependentUpon>Autores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Añadir editorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Añadir editorial.Designer.cs">
+      <DependentUpon>Añadir editorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Añadir empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Añadir empleados.Designer.cs">
+      <DependentUpon>Añadir empleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventana de Ayuda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -207,6 +219,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Autores.resx">
       <DependentUpon>Autores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Añadir editorial.resx">
+      <DependentUpon>Añadir editorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Añadir empleados.resx">
+      <DependentUpon>Añadir empleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventana de Ayuda.resx">
       <DependentUpon>Ventana de Ayuda.cs</DependentUpon>

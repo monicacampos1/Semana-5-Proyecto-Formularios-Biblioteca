@@ -10,27 +10,27 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Editoriales : Form
+    public partial class Añadir_empleados : Form
     {
-        public Editoriales()
+        public Añadir_empleados()
         {
             InitializeComponent();
         }
 
+        private void Añadir_empleados_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Close();
-        }
-
-        private void Editoriales_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnAñadir_Click(object sender, EventArgs e)
-        {
-            Añadir_editorial nuevaEditorial = new Añadir_editorial();
-            nuevaEditorial.ShowDialog();
+            Empleados atrasEmpleados = new Empleados();
+            atrasEmpleados.ShowDialog();
         }
     }
 }
