@@ -39,6 +39,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             "William Shakespeare",
             "Romeo y Julieta",
             "Rosaelediaz@gmail.com"}, -1);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reservaciones));
             this.listViewCategoria = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -46,6 +47,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnSalir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnAñadir = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listViewCategoria
@@ -62,10 +67,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.listViewCategoria.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2});
-            this.listViewCategoria.Location = new System.Drawing.Point(11, 42);
+            this.listViewCategoria.Location = new System.Drawing.Point(11, 131);
             this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.listViewCategoria.Name = "listViewCategoria";
-            this.listViewCategoria.Size = new System.Drawing.Size(631, 436);
+            this.listViewCategoria.Size = new System.Drawing.Size(631, 347);
             this.listViewCategoria.TabIndex = 23;
             this.listViewCategoria.UseCompatibleStateImageBehavior = false;
             this.listViewCategoria.View = System.Windows.Forms.View.Details;
@@ -117,15 +122,66 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label1.TabIndex = 38;
             this.label1.Text = "Reservaciones";
             // 
+            // btnAñadir
+            // 
+            this.btnAñadir.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.btnAñadir.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnAñadir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAñadir.FlatAppearance.BorderSize = 0;
+            this.btnAñadir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAñadir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAñadir.Location = new System.Drawing.Point(22, 486);
+            this.btnAñadir.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAñadir.Name = "btnAñadir";
+            this.btnAñadir.Size = new System.Drawing.Size(97, 32);
+            this.btnAñadir.TabIndex = 39;
+            this.btnAñadir.Text = "Añadir";
+            this.btnAñadir.UseVisualStyleBackColor = false;
+            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(33, 74);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 20);
+            this.label2.TabIndex = 41;
+            this.label2.Text = "Buscar:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(113, 74);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(340, 20);
+            this.textBox1.TabIndex = 42;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(529, 50);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(59, 44);
+            this.button1.TabIndex = 43;
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Reservaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
             this.ClientSize = new System.Drawing.Size(653, 529);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnAñadir);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.listViewCategoria);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reservaciones";
             this.Text = "Reservaciones";
             this.ResumeLayout(false);
@@ -142,5 +198,9 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAñadir;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

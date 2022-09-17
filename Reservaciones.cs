@@ -21,5 +21,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
             Close();
         }
+
+        private void btnAñadir_Click(object sender, EventArgs e)
+        {
+            Reservación pi = new Reservación();
+            pi.ShowDialog();
+        }
     }
 }

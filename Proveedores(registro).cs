@@ -17,6 +17,17 @@ namespace Semana_5_proyecto_formularios_biblioteca
             InitializeComponent();
         }
 
+        private void listViewCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAñadir_Click(object sender, EventArgs e)
+        {
+            Proveedores we = new Proveedores();
+            we.ShowDialog();
+        }
+
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();

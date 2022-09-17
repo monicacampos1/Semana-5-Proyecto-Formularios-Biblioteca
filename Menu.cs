@@ -68,13 +68,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Proveedores t = new Proveedores();
+            Proveedores_registro_ t = new Proveedores_registro_();
             t.ShowDialog();
         }
 
         private void reservacionDeLibrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Reservación r = new Reservación();
+            Reservaciones r = new Reservaciones();
             r.ShowDialog();
         }
 
