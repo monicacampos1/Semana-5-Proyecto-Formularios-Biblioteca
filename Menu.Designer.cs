@@ -68,71 +68,80 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1189, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(1189, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // categoriasToolStripMenuItem
             // 
+            this.categoriasToolStripMenuItem.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
-            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(66, 23);
+            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(68, 25);
             this.categoriasToolStripMenuItem.Text = "Libros";
             this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.categoriasToolStripMenuItem_Click);
             // 
             // autoresToolStripMenuItem
             // 
+            this.autoresToolStripMenuItem.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.autoresToolStripMenuItem.Name = "autoresToolStripMenuItem";
-            this.autoresToolStripMenuItem.Size = new System.Drawing.Size(83, 23);
+            this.autoresToolStripMenuItem.Size = new System.Drawing.Size(87, 25);
             this.autoresToolStripMenuItem.Text = "Autores ";
             this.autoresToolStripMenuItem.Click += new System.EventHandler(this.autoresToolStripMenuItem_Click);
             // 
             // prestamosToolStripMenuItem
             // 
+            this.prestamosToolStripMenuItem.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prestamosToolStripMenuItem.Name = "prestamosToolStripMenuItem";
-            this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(97, 23);
+            this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(103, 25);
             this.prestamosToolStripMenuItem.Text = "Prestamos";
             this.prestamosToolStripMenuItem.Click += new System.EventHandler(this.prestamosToolStripMenuItem_Click);
             // 
             // usuariosFrecuentesToolStripMenuItem
             // 
+            this.usuariosFrecuentesToolStripMenuItem.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usuariosFrecuentesToolStripMenuItem.Name = "usuariosFrecuentesToolStripMenuItem";
-            this.usuariosFrecuentesToolStripMenuItem.Size = new System.Drawing.Size(171, 23);
+            this.usuariosFrecuentesToolStripMenuItem.Size = new System.Drawing.Size(181, 25);
             this.usuariosFrecuentesToolStripMenuItem.Text = "Usuarios Frecuentes ";
             this.usuariosFrecuentesToolStripMenuItem.Click += new System.EventHandler(this.usuariosFrecuentesToolStripMenuItem_Click);
             // 
             // empleadosToolStripMenuItem
             // 
+            this.empleadosToolStripMenuItem.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(105, 23);
+            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(110, 25);
             this.empleadosToolStripMenuItem.Text = "Empleados ";
             this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.empleadosToolStripMenuItem_Click);
             // 
             // editorialesToolStripMenuItem
             // 
+            this.editorialesToolStripMenuItem.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.editorialesToolStripMenuItem.Name = "editorialesToolStripMenuItem";
-            this.editorialesToolStripMenuItem.Size = new System.Drawing.Size(101, 23);
+            this.editorialesToolStripMenuItem.Size = new System.Drawing.Size(105, 25);
             this.editorialesToolStripMenuItem.Text = "Editoriales ";
             this.editorialesToolStripMenuItem.Click += new System.EventHandler(this.editorialesToolStripMenuItem_Click);
             // 
             // proveedoresToolStripMenuItem
             // 
+            this.proveedoresToolStripMenuItem.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(118, 23);
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(122, 25);
             this.proveedoresToolStripMenuItem.Text = "Proveedores ";
             this.proveedoresToolStripMenuItem.Click += new System.EventHandler(this.proveedoresToolStripMenuItem_Click);
             // 
             // reservacionDeLibrosToolStripMenuItem
             // 
+            this.reservacionDeLibrosToolStripMenuItem.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reservacionDeLibrosToolStripMenuItem.Name = "reservacionDeLibrosToolStripMenuItem";
-            this.reservacionDeLibrosToolStripMenuItem.Size = new System.Drawing.Size(181, 23);
+            this.reservacionDeLibrosToolStripMenuItem.Size = new System.Drawing.Size(188, 25);
             this.reservacionDeLibrosToolStripMenuItem.Text = "Reservacion de libros ";
             this.reservacionDeLibrosToolStripMenuItem.Click += new System.EventHandler(this.reservacionDeLibrosToolStripMenuItem_Click);
             // 
             // acerca
             // 
+            this.acerca.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.acerca.Name = "acerca";
-            this.acerca.Size = new System.Drawing.Size(98, 23);
+            this.acerca.Size = new System.Drawing.Size(101, 25);
             this.acerca.Text = "Acerca de ";
             this.acerca.Click += new System.EventHandler(this.acerca_Click);
             // 
@@ -142,28 +151,29 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.contactosToolStripMenuItem,
             this.cerrarProgramaToolStripMenuItem,
             this.ayudaDelSistemaToolStripMenuItem});
+            this.ayuda.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ayuda.Name = "ayuda";
-            this.ayuda.Size = new System.Drawing.Size(71, 23);
+            this.ayuda.Size = new System.Drawing.Size(76, 25);
             this.ayuda.Text = "Ayuda ";
             // 
             // contactosToolStripMenuItem
             // 
             this.contactosToolStripMenuItem.Name = "contactosToolStripMenuItem";
-            this.contactosToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
+            this.contactosToolStripMenuItem.Size = new System.Drawing.Size(221, 26);
             this.contactosToolStripMenuItem.Text = "Contactos";
             this.contactosToolStripMenuItem.Click += new System.EventHandler(this.contactosToolStripMenuItem_Click);
             // 
             // cerrarProgramaToolStripMenuItem
             // 
             this.cerrarProgramaToolStripMenuItem.Name = "cerrarProgramaToolStripMenuItem";
-            this.cerrarProgramaToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
+            this.cerrarProgramaToolStripMenuItem.Size = new System.Drawing.Size(221, 26);
             this.cerrarProgramaToolStripMenuItem.Text = "Cerrar Programa ";
             this.cerrarProgramaToolStripMenuItem.Click += new System.EventHandler(this.cerrarProgramaToolStripMenuItem_Click);
             // 
             // ayudaDelSistemaToolStripMenuItem
             // 
             this.ayudaDelSistemaToolStripMenuItem.Name = "ayudaDelSistemaToolStripMenuItem";
-            this.ayudaDelSistemaToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
+            this.ayudaDelSistemaToolStripMenuItem.Size = new System.Drawing.Size(221, 26);
             this.ayudaDelSistemaToolStripMenuItem.Text = "Ayuda del Sistema";
             this.ayudaDelSistemaToolStripMenuItem.Click += new System.EventHandler(this.ayudaDelSistemaToolStripMenuItem_Click);
             // 
