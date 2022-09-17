@@ -68,10 +68,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.listViewCategoria.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2});
-            this.listViewCategoria.Location = new System.Drawing.Point(11, 148);
+            this.listViewCategoria.Location = new System.Drawing.Point(46, 141);
             this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.listViewCategoria.Name = "listViewCategoria";
-            this.listViewCategoria.Size = new System.Drawing.Size(631, 334);
+            this.listViewCategoria.Size = new System.Drawing.Size(631, 264);
             this.listViewCategoria.TabIndex = 24;
             this.listViewCategoria.UseCompatibleStateImageBehavior = false;
             this.listViewCategoria.View = System.Windows.Forms.View.Details;
@@ -101,7 +101,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(262, 9);
+            this.label1.Location = new System.Drawing.Point(251, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(118, 24);
             this.label1.TabIndex = 39;
@@ -111,7 +111,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(28, 59);
+            this.label2.Location = new System.Drawing.Point(42, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 20);
             this.label2.TabIndex = 40;
@@ -119,7 +119,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(97, 59);
+            this.textBox1.Location = new System.Drawing.Point(128, 77);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(340, 20);
             this.textBox1.TabIndex = 41;
@@ -129,7 +129,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(516, 37);
+            this.button1.Location = new System.Drawing.Point(496, 67);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(59, 44);
             this.button1.TabIndex = 42;
@@ -143,13 +143,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnAñadir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAñadir.FlatAppearance.BorderSize = 0;
             this.btnAñadir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAñadir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAñadir.Location = new System.Drawing.Point(21, 486);
+            this.btnAñadir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAñadir.Location = new System.Drawing.Point(46, 427);
             this.btnAñadir.Margin = new System.Windows.Forms.Padding(2);
             this.btnAñadir.Name = "btnAñadir";
-            this.btnAñadir.Size = new System.Drawing.Size(97, 32);
+            this.btnAñadir.Size = new System.Drawing.Size(209, 32);
             this.btnAñadir.TabIndex = 49;
-            this.btnAñadir.Text = "Añadir";
+            this.btnAñadir.Text = "Añadir nuevo proveedor ";
             this.btnAñadir.UseVisualStyleBackColor = false;
             this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
@@ -160,11 +160,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(536, 486);
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(509, 427);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(97, 32);
+            this.btnSalir.Size = new System.Drawing.Size(168, 35);
             this.btnSalir.TabIndex = 50;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
@@ -175,7 +175,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
-            this.ClientSize = new System.Drawing.Size(653, 529);
+            this.ClientSize = new System.Drawing.Size(735, 508);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAñadir);
             this.Controls.Add(this.button1);
@@ -185,7 +185,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.listViewCategoria);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Proveedores_registro_";
-            this.Text = "Proveedores_registro_";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario añadir proveedores ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

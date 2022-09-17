@@ -71,7 +71,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // bactualizar
             // 
-            this.bactualizar.BackColor = System.Drawing.Color.PaleGreen;
+            this.bactualizar.BackColor = System.Drawing.Color.DarkTurquoise;
             this.bactualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bactualizar.Location = new System.Drawing.Point(306, 382);
             this.bactualizar.Name = "bactualizar";
@@ -84,7 +84,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // bguardar
             // 
-            this.bguardar.BackColor = System.Drawing.Color.PaleGreen;
+            this.bguardar.BackColor = System.Drawing.Color.DarkTurquoise;
             this.bguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bguardar.Location = new System.Drawing.Point(44, 382);
             this.bguardar.Name = "bguardar";
@@ -97,7 +97,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // bsalir
             // 
-            this.bsalir.BackColor = System.Drawing.Color.PaleGreen;
+            this.bsalir.BackColor = System.Drawing.Color.DarkTurquoise;
             this.bsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bsalir.Location = new System.Drawing.Point(447, 329);
             this.bsalir.Name = "bsalir";
@@ -109,7 +109,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // bmodificar
             // 
-            this.bmodificar.BackColor = System.Drawing.Color.PaleGreen;
+            this.bmodificar.BackColor = System.Drawing.Color.DarkTurquoise;
             this.bmodificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bmodificar.Location = new System.Drawing.Point(306, 329);
             this.bmodificar.Name = "bmodificar";
@@ -121,7 +121,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // beliminar
             // 
-            this.beliminar.BackColor = System.Drawing.Color.PaleGreen;
+            this.beliminar.BackColor = System.Drawing.Color.DarkTurquoise;
             this.beliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.beliminar.Location = new System.Drawing.Point(170, 329);
             this.beliminar.Name = "beliminar";
@@ -133,7 +133,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // bnuevo
             // 
-            this.bnuevo.BackColor = System.Drawing.Color.PaleGreen;
+            this.bnuevo.BackColor = System.Drawing.Color.DarkTurquoise;
             this.bnuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bnuevo.Location = new System.Drawing.Point(44, 329);
             this.bnuevo.Name = "bnuevo";
@@ -145,7 +145,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // bultimo
             // 
-            this.bultimo.BackColor = System.Drawing.Color.PaleGreen;
+            this.bultimo.BackColor = System.Drawing.Color.DarkTurquoise;
             this.bultimo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bultimo.Location = new System.Drawing.Point(447, 274);
             this.bultimo.Name = "bultimo";
@@ -157,7 +157,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // bsiguiente
             // 
-            this.bsiguiente.BackColor = System.Drawing.Color.PaleGreen;
+            this.bsiguiente.BackColor = System.Drawing.Color.DarkTurquoise;
             this.bsiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bsiguiente.Location = new System.Drawing.Point(306, 274);
             this.bsiguiente.Name = "bsiguiente";
@@ -169,7 +169,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // banterior
             // 
-            this.banterior.BackColor = System.Drawing.Color.PaleGreen;
+            this.banterior.BackColor = System.Drawing.Color.DarkTurquoise;
             this.banterior.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.banterior.Location = new System.Drawing.Point(170, 274);
             this.banterior.Name = "banterior";
@@ -181,7 +181,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // bprimero
             // 
-            this.bprimero.BackColor = System.Drawing.Color.PaleGreen;
+            this.bprimero.BackColor = System.Drawing.Color.DarkTurquoise;
             this.bprimero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bprimero.Location = new System.Drawing.Point(44, 274);
             this.bprimero.Name = "bprimero";
@@ -317,7 +317,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "fusuarios";
-            this.Text = "fusuarios";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario usuarios ";
             this.Load += new System.EventHandler(this.fusuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sistemausuDataSet)).EndInit();

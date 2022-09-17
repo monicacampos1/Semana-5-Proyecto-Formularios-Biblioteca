@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Agregar : Form
+    public partial class AgregarAutores : Form
     {
-        public Agregar()
+        public AgregarAutores()
         {
             InitializeComponent();
         }
@@ -25,6 +25,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close(); 
         }
     }
 }

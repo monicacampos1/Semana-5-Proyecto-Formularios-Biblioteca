@@ -185,7 +185,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(197, 10);
+            this.label1.Location = new System.Drawing.Point(197, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(200, 20);
             this.label1.TabIndex = 18;
@@ -200,7 +200,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrar.Location = new System.Drawing.Point(35, 472);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(97, 32);
             this.btnRegistrar.TabIndex = 34;
@@ -217,7 +217,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.Location = new System.Drawing.Point(191, 472);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(97, 32);
             this.btnCancelar.TabIndex = 35;
@@ -233,7 +233,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.Location = new System.Drawing.Point(523, 472);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(97, 32);
             this.btnSalir.TabIndex = 36;
@@ -250,7 +250,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Location = new System.Drawing.Point(365, 472);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(97, 32);
             this.btnEliminar.TabIndex = 37;
@@ -261,7 +261,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(649, 520);
+            this.ClientSize = new System.Drawing.Size(649, 547);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnCancelar);
@@ -284,7 +284,8 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reservación";
-            this.Text = "Reservación";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario añadir reservación de libro" +
+    "s ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

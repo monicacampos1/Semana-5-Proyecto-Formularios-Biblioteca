@@ -171,7 +171,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Acerca de ";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario Acerca de ";
             this.tableLayoutPanel.ResumeLayout(false);
             this.tableLayoutPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).EndInit();

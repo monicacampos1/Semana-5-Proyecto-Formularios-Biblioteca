@@ -17,20 +17,14 @@ namespace Semana_5_proyecto_formularios_biblioteca
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Close();
+            Close(); 
         }
 
-        private void btnRegistrar_Click(object sender, EventArgs e)
+        private void button4_Click_1(object sender, EventArgs e)
         {
-            Proveedores_registro_ rp = new Proveedores_registro_ ();
-            rp.ShowDialog();
-        }
 
-        private void btnSalir_Click(object sender, EventArgs e)
-        {
-            Close();
         }
     }
 }

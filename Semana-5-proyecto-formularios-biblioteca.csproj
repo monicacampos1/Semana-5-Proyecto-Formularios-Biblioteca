@@ -95,11 +95,11 @@
     <Compile Include="acercade.Designer.cs">
       <DependentUpon>acercade.cs</DependentUpon>
     </Compile>
-    <Compile Include="Agregar.cs">
+    <Compile Include="AgregarAutores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Agregar.Designer.cs">
-      <DependentUpon>Agregar.cs</DependentUpon>
+    <Compile Include="AgregarAutores.Designer.cs">
+      <DependentUpon>AgregarAutores.cs</DependentUpon>
     </Compile>
     <Compile Include="Autores.cs">
       <SubType>Form</SubType>
@@ -243,8 +243,8 @@
     <EmbeddedResource Include="acercade.resx">
       <DependentUpon>acercade.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Agregar.resx">
-      <DependentUpon>Agregar.cs</DependentUpon>
+    <EmbeddedResource Include="AgregarAutores.resx">
+      <DependentUpon>AgregarAutores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Autores.resx">
       <DependentUpon>Autores.cs</DependentUpon>

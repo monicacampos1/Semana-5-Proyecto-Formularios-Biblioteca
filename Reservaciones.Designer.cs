@@ -67,7 +67,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.listViewCategoria.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2});
-            this.listViewCategoria.Location = new System.Drawing.Point(11, 131);
+            this.listViewCategoria.Location = new System.Drawing.Point(52, 117);
             this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.listViewCategoria.Name = "listViewCategoria";
             this.listViewCategoria.Size = new System.Drawing.Size(631, 347);
@@ -102,8 +102,8 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(545, 486);
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(586, 486);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(97, 32);
@@ -116,7 +116,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(256, 9);
+            this.label1.Location = new System.Drawing.Point(318, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 24);
             this.label1.TabIndex = 38;
@@ -129,13 +129,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnAñadir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAñadir.FlatAppearance.BorderSize = 0;
             this.btnAñadir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAñadir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAñadir.Location = new System.Drawing.Point(22, 486);
+            this.btnAñadir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAñadir.Location = new System.Drawing.Point(52, 486);
             this.btnAñadir.Margin = new System.Windows.Forms.Padding(2);
             this.btnAñadir.Name = "btnAñadir";
-            this.btnAñadir.Size = new System.Drawing.Size(97, 32);
+            this.btnAñadir.Size = new System.Drawing.Size(207, 32);
             this.btnAñadir.TabIndex = 39;
-            this.btnAñadir.Text = "Añadir";
+            this.btnAñadir.Text = "Añadir nueva reservacion ";
             this.btnAñadir.UseVisualStyleBackColor = false;
             this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
             // 
@@ -143,7 +143,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 74);
+            this.label2.Location = new System.Drawing.Point(48, 76);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 20);
             this.label2.TabIndex = 41;
@@ -151,7 +151,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(113, 74);
+            this.textBox1.Location = new System.Drawing.Point(149, 78);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(340, 20);
             this.textBox1.TabIndex = 42;
@@ -161,7 +161,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(529, 50);
+            this.button1.Location = new System.Drawing.Point(529, 54);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(59, 44);
             this.button1.TabIndex = 43;
@@ -173,7 +173,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
-            this.ClientSize = new System.Drawing.Size(653, 529);
+            this.ClientSize = new System.Drawing.Size(753, 553);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
@@ -183,7 +183,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.listViewCategoria);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reservaciones";
-            this.Text = "Reservaciones";
+            this.Text = "RSistema Bibliotecario Lectores sin rumbo - Formulario reservacion de libro ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

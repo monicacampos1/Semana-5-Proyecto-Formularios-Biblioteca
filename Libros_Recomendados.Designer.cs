@@ -254,7 +254,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.label1);
             this.Name = "Libros_Recomendados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Libros recomendados";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario libros recomendados";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

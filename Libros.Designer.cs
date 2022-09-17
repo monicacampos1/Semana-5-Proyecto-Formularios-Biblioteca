@@ -30,42 +30,42 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Libros));
-            System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "Mi abuela es una estrella",
             "Carl Norac",
             "Norma",
             "Romance",
             "E-3",
             "5"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "Hamlet",
             "William Shakespeare",
             "Tirat",
             "Tragedia",
             "E-1",
             "3"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "La divina comedia",
             "Dante Alighieri",
             "Juridica Salvadoreña",
             "Comedia",
             "E-2",
             "4"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "Pobrecito poeta que era yo",
             "Roque Dalton",
             "UCA Editores",
             "Poesia",
             "E-3",
             "1"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Cuentos de barro",
             "Salvador Salazar Arrué",
             "La Montaña",
             "Cuento",
             "E-1",
             "4"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem("");
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -140,10 +140,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(676, 415);
+            this.btnSalir.Location = new System.Drawing.Point(605, 415);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(97, 32);
+            this.btnSalir.Size = new System.Drawing.Size(126, 32);
             this.btnSalir.TabIndex = 50;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
@@ -163,12 +163,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.listViewCategoria.GridLines = true;
             this.listViewCategoria.HideSelection = false;
             this.listViewCategoria.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem19,
-            listViewItem20,
-            listViewItem21,
-            listViewItem22,
-            listViewItem23,
-            listViewItem24});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5,
+            listViewItem6});
             this.listViewCategoria.Location = new System.Drawing.Point(36, 149);
             this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.listViewCategoria.Name = "listViewCategoria";
@@ -216,12 +216,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnRegistrar.FlatAppearance.BorderSize = 0;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(140, 415);
+            this.btnRegistrar.Location = new System.Drawing.Point(36, 415);
             this.btnRegistrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(132, 32);
+            this.btnRegistrar.Size = new System.Drawing.Size(218, 32);
             this.btnRegistrar.TabIndex = 52;
-            this.btnRegistrar.Text = "Añadir Libros.";
+            this.btnRegistrar.Text = "Añadir nuevo libros.";
             this.btnRegistrar.UseVisualStyleBackColor = false;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
@@ -230,7 +230,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 487);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.listViewCategoria);
             this.Controls.Add(this.btnSalir);
@@ -241,7 +241,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Libros";
-            this.Text = "Sistema Bibliotecario Lectores sin rumbo: Libros";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario Libros";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

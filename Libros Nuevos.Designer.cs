@@ -330,7 +330,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Location = new System.Drawing.Point(50, 50);
             this.Name = "Libros_Nuevos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Libros nuevos ";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario libros nuevos ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

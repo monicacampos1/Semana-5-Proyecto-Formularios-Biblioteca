@@ -152,7 +152,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Name = "inicio";
-            this.Text = "inicio";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario inicio ";
             this.Load += new System.EventHandler(this.inicio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

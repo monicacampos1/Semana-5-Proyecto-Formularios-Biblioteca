@@ -55,7 +55,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.listViewCategoria.GridLines = true;
             this.listViewCategoria.HideSelection = false;
             this.listViewCategoria.Location = new System.Drawing.Point(66, 159);
-            this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.listViewCategoria.Name = "listViewCategoria";
             this.listViewCategoria.Size = new System.Drawing.Size(650, 234);
             this.listViewCategoria.TabIndex = 24;
@@ -97,7 +97,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCancelar.Location = new System.Drawing.Point(524, 433);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(192, 32);
             this.btnCancelar.TabIndex = 22;
@@ -115,7 +115,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnRegistrar.Location = new System.Drawing.Point(66, 433);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(263, 32);
             this.btnRegistrar.TabIndex = 21;
@@ -148,7 +148,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(198, 104);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(182, 20);
             this.textBox1.TabIndex = 27;
@@ -165,10 +165,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.listViewCategoria);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnRegistrar);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Empleados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Empleados";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario empleados";
             this.Load += new System.EventHandler(this.Empleados_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

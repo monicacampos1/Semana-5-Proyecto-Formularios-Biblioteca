@@ -44,7 +44,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // baccess
             // 
-            this.baccess.BackColor = System.Drawing.Color.PaleGreen;
+            this.baccess.BackColor = System.Drawing.Color.DarkTurquoise;
             this.baccess.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.baccess.Location = new System.Drawing.Point(327, 223);
             this.baccess.Name = "baccess";
@@ -66,7 +66,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // bsql
             // 
-            this.bsql.BackColor = System.Drawing.Color.PaleGreen;
+            this.bsql.BackColor = System.Drawing.Color.DarkTurquoise;
             this.bsql.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bsql.Location = new System.Drawing.Point(186, 223);
             this.bsql.Name = "bsql";
@@ -78,7 +78,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // bsalir
             // 
-            this.bsalir.BackColor = System.Drawing.Color.PaleGreen;
+            this.bsalir.BackColor = System.Drawing.Color.DarkTurquoise;
             this.bsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bsalir.Location = new System.Drawing.Point(22, 223);
             this.bsalir.Name = "bsalir";
@@ -149,7 +149,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "flogin";
-            this.Text = "flogin";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario login ";
             this.Load += new System.EventHandler(this.flogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

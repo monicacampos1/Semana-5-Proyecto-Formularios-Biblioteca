@@ -50,7 +50,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnAñadir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAñadir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAñadir.Location = new System.Drawing.Point(30, 360);
-            this.btnAñadir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAñadir.Margin = new System.Windows.Forms.Padding(2);
             this.btnAñadir.Name = "btnAñadir";
             this.btnAñadir.Size = new System.Drawing.Size(237, 32);
             this.btnAñadir.TabIndex = 24;
@@ -67,7 +67,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnMostrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMostrar.Location = new System.Drawing.Point(499, 360);
-            this.btnMostrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMostrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(161, 32);
             this.btnMostrar.TabIndex = 23;
@@ -87,7 +87,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.listViewCategoria.GridLines = true;
             this.listViewCategoria.HideSelection = false;
             this.listViewCategoria.Location = new System.Drawing.Point(30, 145);
-            this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.listViewCategoria.Name = "listViewCategoria";
             this.listViewCategoria.Size = new System.Drawing.Size(630, 180);
             this.listViewCategoria.TabIndex = 22;
@@ -139,7 +139,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(135, 93);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(170, 20);
             this.textBox1.TabIndex = 27;
@@ -156,9 +156,9 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.btnAñadir);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.listViewCategoria);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Editoriales";
-            this.Text = "Editoriales";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario editoriales";
             this.Load += new System.EventHandler(this.Editoriales_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

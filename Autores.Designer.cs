@@ -29,19 +29,19 @@ namespace Semana_5_proyecto_formularios_biblioteca
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "Miguel de Cervantes",
             "Don Quijote de la mancha"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "Alfred Döblin",
             "Berlin Alexanderplatz"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
             "Federico García Lorca",
             "Romancero gitano"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
             "Denis Diderot",
             "Jacques el fatalista"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
             "Louis-Ferdinand Céline",
             "Viaje al fin de la noche"}, -1);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Autores));
@@ -52,10 +52,8 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -78,15 +76,15 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.listViewCategoria.GridLines = true;
             this.listViewCategoria.HideSelection = false;
             this.listViewCategoria.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem21,
-            listViewItem22,
-            listViewItem23,
-            listViewItem24,
-            listViewItem25});
-            this.listViewCategoria.Location = new System.Drawing.Point(102, 171);
+            listViewItem6,
+            listViewItem7,
+            listViewItem8,
+            listViewItem9,
+            listViewItem10});
+            this.listViewCategoria.Location = new System.Drawing.Point(41, 129);
             this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.listViewCategoria.Name = "listViewCategoria";
-            this.listViewCategoria.Size = new System.Drawing.Size(317, 248);
+            this.listViewCategoria.Size = new System.Drawing.Size(514, 248);
             this.listViewCategoria.TabIndex = 26;
             this.listViewCategoria.UseCompatibleStateImageBehavior = false;
             this.listViewCategoria.View = System.Windows.Forms.View.Details;
@@ -94,52 +92,44 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // columnHeader1
             // 
             this.columnHeader1.Text = "Nombre del Autor.";
-            this.columnHeader1.Width = 152;
+            this.columnHeader1.Width = 229;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Libros destacados.";
             this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 160;
+            this.columnHeader3.Width = 359;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(176, 86);
+            this.label2.Location = new System.Drawing.Point(37, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 20);
+            this.label2.Size = new System.Drawing.Size(59, 20);
             this.label2.TabIndex = 27;
-            this.label2.Text = "Buscar por su Nombre.";
+            this.label2.Text = "Buscar";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(102, 120);
+            this.textBox1.Location = new System.Drawing.Point(102, 75);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(316, 20);
             this.textBox1.TabIndex = 28;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(442, 96);
+            this.button1.Location = new System.Drawing.Point(442, 73);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(59, 44);
             this.button1.TabIndex = 29;
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(621, 86);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(176, 134);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 31;
-            this.pictureBox1.TabStop = false;
             // 
             // btnRegistrar
             // 
@@ -149,7 +139,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnRegistrar.FlatAppearance.BorderSize = 0;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(467, 407);
+            this.btnRegistrar.Location = new System.Drawing.Point(41, 417);
             this.btnRegistrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(171, 32);
@@ -166,10 +156,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(679, 407);
+            this.btnSalir.Location = new System.Drawing.Point(417, 417);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(97, 32);
+            this.btnSalir.Size = new System.Drawing.Size(138, 32);
             this.btnSalir.TabIndex = 54;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
@@ -180,18 +170,16 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(658, 497);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnRegistrar);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listViewCategoria);
             this.Controls.Add(this.label1);
             this.Name = "Autores";
-            this.Text = "Autores";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario autores ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -205,7 +193,6 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Button btnSalir;
     }

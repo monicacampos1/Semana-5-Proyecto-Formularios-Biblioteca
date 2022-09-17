@@ -194,7 +194,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.label1);
             this.Name = "prestamos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Prestamos de libros ";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario prestamos de libros ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

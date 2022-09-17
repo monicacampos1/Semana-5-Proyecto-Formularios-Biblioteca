@@ -40,17 +40,18 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnRegistrar = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(14, 359);
+            this.label7.Location = new System.Drawing.Point(65, 343);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(224, 20);
             this.label7.TabIndex = 45;
@@ -59,7 +60,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(235, 293);
+            this.textBox4.Location = new System.Drawing.Point(286, 277);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(141, 20);
             this.textBox4.TabIndex = 42;
@@ -68,7 +69,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(14, 293);
+            this.label5.Location = new System.Drawing.Point(65, 277);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(70, 20);
             this.label5.TabIndex = 41;
@@ -77,7 +78,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(235, 231);
+            this.textBox3.Location = new System.Drawing.Point(286, 215);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(141, 20);
             this.textBox3.TabIndex = 40;
@@ -86,7 +87,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(14, 231);
+            this.label4.Location = new System.Drawing.Point(65, 215);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(113, 20);
             this.label4.TabIndex = 39;
@@ -95,7 +96,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(235, 166);
+            this.textBox2.Location = new System.Drawing.Point(286, 150);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(282, 20);
             this.textBox2.TabIndex = 38;
@@ -104,7 +105,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(14, 166);
+            this.label3.Location = new System.Drawing.Point(65, 150);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 20);
             this.label3.TabIndex = 37;
@@ -113,7 +114,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(235, 85);
+            this.textBox1.Location = new System.Drawing.Point(286, 69);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(282, 20);
             this.textBox1.TabIndex = 36;
@@ -122,7 +123,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(14, 85);
+            this.label2.Location = new System.Drawing.Point(65, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(190, 20);
             this.label2.TabIndex = 35;
@@ -141,73 +142,94 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label1.Text = "Ingreso de proveedores";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnRegistrar.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRegistrar.FlatAppearance.BorderSize = 0;
-            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(45, 462);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(97, 32);
-            this.btnRegistrar.TabIndex = 47;
-            this.btnRegistrar.Text = "Resistrar";
-            this.btnRegistrar.UseVisualStyleBackColor = false;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnCancelar.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancelar.FlatAppearance.BorderSize = 0;
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(260, 462);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(97, 32);
-            this.btnCancelar.TabIndex = 48;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnSalir.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalir.FlatAppearance.BorderSize = 0;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(502, 462);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(97, 32);
-            this.btnSalir.TabIndex = 49;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(235, 359);
+            this.textBox5.Location = new System.Drawing.Point(295, 343);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(282, 20);
             this.textBox5.TabIndex = 50;
+            // 
+            // button2
+            // 
+            this.button2.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.button2.BackColor = System.Drawing.Color.PaleGreen;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(344, 414);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(97, 32);
+            this.button2.TabIndex = 54;
+            this.button2.Text = "Eliminar";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.button1.BackColor = System.Drawing.Color.PaleGreen;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(484, 414);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(97, 32);
+            this.button1.TabIndex = 53;
+            this.button1.Text = "Salir";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button3
+            // 
+            this.button3.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.button3.BackColor = System.Drawing.Color.PaleGreen;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button3.Location = new System.Drawing.Point(192, 414);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(97, 32);
+            this.button3.TabIndex = 52;
+            this.button3.Text = "Cancelar";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.button4.BackColor = System.Drawing.Color.PaleGreen;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button4.Location = new System.Drawing.Point(60, 414);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(97, 32);
+            this.button4.TabIndex = 51;
+            this.button4.Text = "Resistrar";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // Proveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
-            this.ClientSize = new System.Drawing.Size(649, 543);
+            this.ClientSize = new System.Drawing.Size(649, 490);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label5);
@@ -220,7 +242,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Proveedores";
-            this.Text = "Proveedores";
+            this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario añadir proveedores";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,9 +259,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnRegistrar;
-        private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
