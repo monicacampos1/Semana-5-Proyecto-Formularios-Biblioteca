@@ -119,6 +119,12 @@
     <Compile Include="Añadir empleados.Designer.cs">
       <DependentUpon>Añadir empleados.cs</DependentUpon>
     </Compile>
+    <Compile Include="Añadir Libro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Añadir Libro.Designer.cs">
+      <DependentUpon>Añadir Libro.cs</DependentUpon>
+    </Compile>
     <Compile Include="datosprestamos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,11 +160,11 @@
     <Compile Include="Ayuda.Designer.cs">
       <DependentUpon>Ayuda.cs</DependentUpon>
     </Compile>
-    <Compile Include="Categoriass.cs">
+    <Compile Include="Libros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Categoriass.Designer.cs">
-      <DependentUpon>Categoriass.cs</DependentUpon>
+    <Compile Include="Libros.Designer.cs">
+      <DependentUpon>Libros.cs</DependentUpon>
     </Compile>
     <Compile Include="Editoriales.cs">
       <SubType>Form</SubType>
@@ -249,6 +255,9 @@
     <EmbeddedResource Include="Añadir empleados.resx">
       <DependentUpon>Añadir empleados.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Añadir Libro.resx">
+      <DependentUpon>Añadir Libro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="datosprestamos.resx">
       <DependentUpon>datosprestamos.cs</DependentUpon>
     </EmbeddedResource>
@@ -264,8 +273,8 @@
     <EmbeddedResource Include="Ayuda.resx">
       <DependentUpon>Ayuda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Categoriass.resx">
-      <DependentUpon>Categoriass.cs</DependentUpon>
+    <EmbeddedResource Include="Libros.resx">
+      <DependentUpon>Libros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Editoriales.resx">
       <DependentUpon>Editoriales.cs</DependentUpon>

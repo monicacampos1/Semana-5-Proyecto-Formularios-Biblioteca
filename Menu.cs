@@ -86,7 +86,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Categoriass CG = new Categoriass();
+            Libros CG = new Libros();
             CG.ShowDialog();
         }
 

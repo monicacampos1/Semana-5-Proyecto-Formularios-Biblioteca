@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Categoriass : Form
+    public partial class Libros : Form
     {
-        public Categoriass()
+        public Libros()
         {
             InitializeComponent();
         }
@@ -35,6 +35,17 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void listViewCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            Añadir_Libro al = new Añadir_Libro();
+            al.ShowDialog();
         }
     }
 }
