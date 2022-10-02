@@ -89,6 +89,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acción 1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acción 1.Designer.cs">
+      <DependentUpon>Acción 1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Acción 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acción 2.Designer.cs">
+      <DependentUpon>Acción 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Acción 3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acción 3.Designer.cs">
+      <DependentUpon>Acción 3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Acción 4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acción 4.Designer.cs">
+      <DependentUpon>Acción 4.cs</DependentUpon>
+    </Compile>
     <Compile Include="acercade.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -257,6 +281,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Acción 1.resx">
+      <DependentUpon>Acción 1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acción 2.resx">
+      <DependentUpon>Acción 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acción 3.resx">
+      <DependentUpon>Acción 3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acción 4.resx">
+      <DependentUpon>Acción 4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="acercade.resx">
       <DependentUpon>acercade.cs</DependentUpon>
     </EmbeddedResource>
