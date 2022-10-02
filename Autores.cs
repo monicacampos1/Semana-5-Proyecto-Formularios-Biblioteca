@@ -45,5 +45,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
 
         }
+
+        private void Autores_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

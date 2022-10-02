@@ -36,5 +36,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
 
         }
+
+        private void datosprestamos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

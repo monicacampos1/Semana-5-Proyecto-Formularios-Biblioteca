@@ -258,6 +258,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.label1);
             this.Name = "Autores";
             this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario autores ";
+            this.Load += new System.EventHandler(this.Autores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
