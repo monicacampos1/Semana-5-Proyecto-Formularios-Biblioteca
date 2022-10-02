@@ -34,11 +34,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bsql = new System.Windows.Forms.Button();
             this.bsalir = new System.Windows.Forms.Button();
-            this.txtclave = new System.Windows.Forms.TextBox();
             this.txtusu = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.bmysql = new System.Windows.Forms.Button();
+            this.brmysql = new System.Windows.Forms.Button();
+            this.txtclave = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,7 +48,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.baccess.BackColor = System.Drawing.Color.DarkTurquoise;
             this.baccess.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.baccess.Location = new System.Drawing.Point(327, 223);
+            this.baccess.Location = new System.Drawing.Point(320, 223);
             this.baccess.Name = "baccess";
             this.baccess.Size = new System.Drawing.Size(117, 31);
             this.baccess.TabIndex = 31;
@@ -68,7 +70,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             // 
             this.bsql.BackColor = System.Drawing.Color.DarkTurquoise;
             this.bsql.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bsql.Location = new System.Drawing.Point(186, 223);
+            this.bsql.Location = new System.Drawing.Point(177, 223);
             this.bsql.Name = "bsql";
             this.bsql.Size = new System.Drawing.Size(117, 31);
             this.bsql.TabIndex = 29;
@@ -87,15 +89,6 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.bsalir.Text = "Registrar con Access";
             this.bsalir.UseVisualStyleBackColor = false;
             this.bsalir.Click += new System.EventHandler(this.bsalir_Click);
-            // 
-            // txtclave
-            // 
-            this.txtclave.Location = new System.Drawing.Point(209, 129);
-            this.txtclave.Name = "txtclave";
-            this.txtclave.PasswordChar = '*';
-            this.txtclave.Size = new System.Drawing.Size(151, 20);
-            this.txtclave.TabIndex = 27;
-            this.txtclave.Tag = "";
             // 
             // txtusu
             // 
@@ -134,11 +127,46 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label3.TabIndex = 32;
             this.label3.Text = "Inicio de sesion ";
             // 
+            // bmysql
+            // 
+            this.bmysql.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.bmysql.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bmysql.Location = new System.Drawing.Point(227, 281);
+            this.bmysql.Name = "bmysql";
+            this.bmysql.Size = new System.Drawing.Size(117, 31);
+            this.bmysql.TabIndex = 34;
+            this.bmysql.Text = "Iniciar MySql";
+            this.bmysql.UseVisualStyleBackColor = false;
+            this.bmysql.Click += new System.EventHandler(this.bmysql_Click);
+            // 
+            // brmysql
+            // 
+            this.brmysql.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.brmysql.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.brmysql.Location = new System.Drawing.Point(70, 281);
+            this.brmysql.Name = "brmysql";
+            this.brmysql.Size = new System.Drawing.Size(132, 31);
+            this.brmysql.TabIndex = 35;
+            this.brmysql.Text = "Registrar con MySql";
+            this.brmysql.UseVisualStyleBackColor = false;
+            this.brmysql.Click += new System.EventHandler(this.brmysql_Click);
+            // 
+            // txtclave
+            // 
+            this.txtclave.Location = new System.Drawing.Point(209, 129);
+            this.txtclave.Name = "txtclave";
+            this.txtclave.PasswordChar = '*';
+            this.txtclave.Size = new System.Drawing.Size(151, 20);
+            this.txtclave.TabIndex = 27;
+            this.txtclave.Tag = "";
+            // 
             // flogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(472, 303);
+            this.ClientSize = new System.Drawing.Size(467, 351);
+            this.Controls.Add(this.brmysql);
+            this.Controls.Add(this.bmysql);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.baccess);
             this.Controls.Add(this.pictureBox1);
@@ -163,10 +191,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button bsql;
         private System.Windows.Forms.Button bsalir;
-        private System.Windows.Forms.TextBox txtclave;
         private System.Windows.Forms.TextBox txtusu;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button bmysql;
+        private System.Windows.Forms.Button brmysql;
+        private System.Windows.Forms.TextBox txtclave;
     }
 }

@@ -32,5 +32,15 @@ namespace Semana_5_proyecto_formularios_biblioteca.Properties {
                 return ((string)(this["sistemausuConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;user id=biblioteca1;password=monica9010;database=biblioteca1")]
+        public string biblioteca1ConnectionString {
+            get {
+                return ((string)(this["biblioteca1ConnectionString"]));
+            }
+        }
     }
 }

@@ -125,6 +125,11 @@
     <Compile Include="Añadir Libro.Designer.cs">
       <DependentUpon>Añadir Libro.cs</DependentUpon>
     </Compile>
+    <Compile Include="biblioteca1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>biblioteca1DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="datosprestamos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +153,12 @@
     </Compile>
     <Compile Include="Medio Ambiente.Designer.cs">
       <DependentUpon>Medio Ambiente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mysqlusu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mysqlusu.Designer.cs">
+      <DependentUpon>mysqlusu.cs</DependentUpon>
     </Compile>
     <Compile Include="sistemausuDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -276,6 +287,9 @@
     <EmbeddedResource Include="Medio Ambiente.resx">
       <DependentUpon>Medio Ambiente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="mysqlusu.resx">
+      <DependentUpon>mysqlusu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ventana de Ayuda.resx">
       <DependentUpon>Ventana de Ayuda.cs</DependentUpon>
     </EmbeddedResource>
@@ -330,6 +344,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="biblioteca1DataSet.xsc">
+      <DependentUpon>biblioteca1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="biblioteca1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>biblioteca1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="biblioteca1DataSet.xss">
+      <DependentUpon>biblioteca1DataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

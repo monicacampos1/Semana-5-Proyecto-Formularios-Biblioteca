@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OleDb;
 using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
@@ -131,8 +132,70 @@ namespace Semana_5_proyecto_formularios_biblioteca
             fm.Show(); //abrir menu 
             this.Hide();//ocultar el formulario de login 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            mysqlusu fm = new mysqlusu();
+            fm.Show(); //abrir menu 
+            this.Hide();//ocultar el formulario de login 
+        }
+
+        private void brmysql_Click(object sender, EventArgs e)
+        {
+            mysqlusu fm = new mysqlusu();
+            fm.Show(); //abrir menu 
+            this.Hide();//ocultar el formulario de login 
+
+        }
+
+        private void bmysql_Click(object sender, EventArgs e)
+        {
+
+            try
+
+            {
+
+                MySqlConnection conn = new MySqlConnection("server=localhost;user id=biblioteca1;password=monica9010;database=biblioteca1");
+
+                conn.Open();
+
+                MySqlCommand Pedir = new MySqlCommand("Select nombre, clave from usus where nombre = '" + txtusu.Text + "'And clave = '" + txtclave.Text + "'", conn);
+                Pedir.ExecuteNonQuery();
+                DataSet fe = new DataSet();
+                MySqlDataAdapter te = new MySqlDataAdapter(Pedir);
+
+                te.Fill(fe, "usus");
+
+                DataRow res;
+                res = fe.Tables["usus"].Rows[0];
+
+                if ((txtusu.Text == res["nombre"].ToString()) || (txtclave.Text == res["clave"].ToString()))
+                {
+
+                    Menu fprincipal = new Menu();
+                    fprincipal.Show();
+                    this.Hide();
+                }
+
+            }
+            catch
+            {
+
+
+                txtusu.Clear();
+                txtclave.Clear();
+
+                MessageBox.Show("Error de usuario o clave de acceso", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+
+        }
     }
     }
+
+    
+
+  
     
     
 
