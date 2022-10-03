@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    partial class Proveedores
+    partial class proveedores
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Proveedores));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(proveedores));
             this.label7 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();

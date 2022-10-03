@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Ayuda : Form
+    public partial class ayuda : Form
     {
-        public Ayuda()
+        public ayuda()
         {
             InitializeComponent();
         }

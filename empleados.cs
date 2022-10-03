@@ -10,34 +10,34 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class datosprestamos : Form
+    public partial class empleados : Form
     {
-        public datosprestamos()
+        public empleados()
         {
             InitializeComponent();
         }
 
-        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
+        private void Empleados_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            Close();
-        }
-
-        private void btnSalir_Click(object sender, EventArgs e)
-        {
-            Close(); 
+           
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
+            Close(); 
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
         }
 
-        private void datosprestamos_Load(object sender, EventArgs e)
+        private void comboBoxCategoria_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

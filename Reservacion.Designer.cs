@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    partial class Reservacion
+    partial class reservacion
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reservacion));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(reservacion));
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();

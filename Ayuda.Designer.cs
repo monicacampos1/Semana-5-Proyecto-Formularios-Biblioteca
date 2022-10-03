@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    partial class Ayuda
+    partial class ayuda
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ayuda));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ayuda));
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();

@@ -128,21 +128,21 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void bsalir_Click(object sender, EventArgs e)
         {
-            fusuarios fm = new fusuarios();
+            usuacces fm = new usuacces();
             fm.Show(); //abrir menu 
             this.Hide();//ocultar el formulario de login 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            mysqlusu fm = new mysqlusu();
+            usumysql fm = new usumysql();
             fm.Show(); //abrir menu 
             this.Hide();//ocultar el formulario de login 
         }
 
         private void brmysql_Click(object sender, EventArgs e)
         {
-            mysqlusu fm = new mysqlusu();
+            usumysql fm = new usumysql();
             fm.Show(); //abrir menu 
             this.Hide();//ocultar el formulario de login 
 

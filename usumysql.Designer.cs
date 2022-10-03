@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    partial class mysqlusu
+    partial class usumysql
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mysqlusu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(usumysql));
             this.bactualizar = new System.Windows.Forms.Button();
             this.bguardar = new System.Windows.Forms.Button();
             this.bsalir = new System.Windows.Forms.Button();

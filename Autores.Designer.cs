@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    partial class Autores
+    partial class autores
     {
         /// <summary>
         /// Required designer variable.

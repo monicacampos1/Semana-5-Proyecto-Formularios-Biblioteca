@@ -19,13 +19,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void usuariosFrecuentesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Usufrecuentes facercade = new Usufrecuentes ();
+            usufrecuentes facercade = new usufrecuentes ();
             facercade.ShowDialog();
         }
 
         private void prestamosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            datosprestamos facercade = new datosprestamos();
+            prestamos facercade = new prestamos();
             facercade.ShowDialog();
         }
 
@@ -38,13 +38,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Empleados empleados = new Empleados();
+            empleados empleados = new empleados();
             empleados.ShowDialog();
         }
 
         private void editorialesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Editoriales editorial = new Editoriales();
+            editoriales editorial = new editoriales();
             editorial.ShowDialog();
         }
 
@@ -68,31 +68,31 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Proveedores t = new Proveedores();
+            proveedores t = new proveedores();
             t.ShowDialog();
         }
 
         private void reservacionDeLibrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Reservacion r = new Reservacion();
+            reservacion r = new reservacion();
             r.ShowDialog();
         }
 
         private void contactosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Ayuda ayuda = new Ayuda();
+            ayuda ayuda = new ayuda();
             ayuda.ShowDialog();
         }
 
         private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Libros CG = new Libros();
+            libros CG = new libros();
             CG.ShowDialog();
         }
 
         private void autoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Autores AT = new Autores();
+            autores AT = new autores();
             AT.ShowDialog();
         }
 

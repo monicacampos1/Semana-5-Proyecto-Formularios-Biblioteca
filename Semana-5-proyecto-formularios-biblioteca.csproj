@@ -91,29 +91,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acción 1.cs">
+    <Compile Include="accion1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Acción 1.Designer.cs">
-      <DependentUpon>Acción 1.cs</DependentUpon>
+    <Compile Include="accion1.Designer.cs">
+      <DependentUpon>accion1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Acción 2.cs">
+    <Compile Include="accion2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Acción 2.Designer.cs">
-      <DependentUpon>Acción 2.cs</DependentUpon>
+    <Compile Include="accion2.Designer.cs">
+      <DependentUpon>accion2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Acción 3.cs">
+    <Compile Include="accion3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Acción 3.Designer.cs">
-      <DependentUpon>Acción 3.cs</DependentUpon>
+    <Compile Include="accion3.Designer.cs">
+      <DependentUpon>accion3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Acción 4.cs">
+    <Compile Include="acción 4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Acción 4.Designer.cs">
-      <DependentUpon>Acción 4.cs</DependentUpon>
+    <Compile Include="acción 4.Designer.cs">
+      <DependentUpon>acción 4.cs</DependentUpon>
     </Compile>
     <Compile Include="acercade.cs">
       <SubType>Form</SubType>
@@ -121,28 +121,22 @@
     <Compile Include="acercade.Designer.cs">
       <DependentUpon>acercade.cs</DependentUpon>
     </Compile>
-    <Compile Include="Autores.cs">
+    <Compile Include="autores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Autores.Designer.cs">
-      <DependentUpon>Autores.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Añadir Libro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Añadir Libro.Designer.cs">
-      <DependentUpon>Añadir Libro.cs</DependentUpon>
+    <Compile Include="autores.Designer.cs">
+      <DependentUpon>autores.cs</DependentUpon>
     </Compile>
     <Compile Include="biblioteca1DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>biblioteca1DataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="datosprestamos.cs">
+    <Compile Include="prestamos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="datosprestamos.Designer.cs">
-      <DependentUpon>datosprestamos.cs</DependentUpon>
+    <Compile Include="prestamos.Designer.cs">
+      <DependentUpon>prestamos.cs</DependentUpon>
     </Compile>
     <Compile Include="flogin.cs">
       <SubType>Form</SubType>
@@ -150,52 +144,52 @@
     <Compile Include="flogin.Designer.cs">
       <DependentUpon>flogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="fusuarios.cs">
+    <Compile Include="usuacces.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fusuarios.Designer.cs">
-      <DependentUpon>fusuarios.cs</DependentUpon>
+    <Compile Include="usuacces.Designer.cs">
+      <DependentUpon>usuacces.cs</DependentUpon>
     </Compile>
-    <Compile Include="Medio Ambiente.cs">
+    <Compile Include="medioambiente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Medio Ambiente.Designer.cs">
-      <DependentUpon>Medio Ambiente.cs</DependentUpon>
+    <Compile Include="medioambiente.Designer.cs">
+      <DependentUpon>medioambiente.cs</DependentUpon>
     </Compile>
-    <Compile Include="mysqlusu.cs">
+    <Compile Include="usumysql.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mysqlusu.Designer.cs">
-      <DependentUpon>mysqlusu.cs</DependentUpon>
+    <Compile Include="usumysql.Designer.cs">
+      <DependentUpon>usumysql.cs</DependentUpon>
     </Compile>
     <Compile Include="sistemausuDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>sistemausuDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Ventana de Ayuda.cs">
+    <Compile Include="ventanayuda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ventana de Ayuda.Designer.cs">
-      <DependentUpon>Ventana de Ayuda.cs</DependentUpon>
+    <Compile Include="ventanayuda.Designer.cs">
+      <DependentUpon>ventanayuda.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ayuda.cs">
+    <Compile Include="ayuda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ayuda.Designer.cs">
-      <DependentUpon>Ayuda.cs</DependentUpon>
+    <Compile Include="ayuda.Designer.cs">
+      <DependentUpon>ayuda.cs</DependentUpon>
     </Compile>
-    <Compile Include="Libros.cs">
+    <Compile Include="libros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Libros.Designer.cs">
-      <DependentUpon>Libros.cs</DependentUpon>
+    <Compile Include="libros.Designer.cs">
+      <DependentUpon>libros.cs</DependentUpon>
     </Compile>
-    <Compile Include="Editoriales.cs">
+    <Compile Include="editoriales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Editoriales.Designer.cs">
-      <DependentUpon>Editoriales.cs</DependentUpon>
+    <Compile Include="editoriales.Designer.cs">
+      <DependentUpon>editoriales.cs</DependentUpon>
     </Compile>
     <Compile Include="inicio.cs">
       <SubType>Form</SubType>
@@ -221,82 +215,79 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Empleados.cs">
+    <Compile Include="empleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Empleados.Designer.cs">
-      <DependentUpon>Empleados.cs</DependentUpon>
+    <Compile Include="empleados.Designer.cs">
+      <DependentUpon>empleados.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proveedores.cs">
+    <Compile Include="proveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proveedores.Designer.cs">
-      <DependentUpon>Proveedores.cs</DependentUpon>
+    <Compile Include="proveedores.Designer.cs">
+      <DependentUpon>proveedores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Reservacion.cs">
+    <Compile Include="reservacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reservacion.Designer.cs">
-      <DependentUpon>Reservacion.cs</DependentUpon>
+    <Compile Include="reservacion.Designer.cs">
+      <DependentUpon>reservacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Usufrecuentes.cs">
+    <Compile Include="usufrecuentes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Usufrecuentes.Designer.cs">
-      <DependentUpon>Usufrecuentes.cs</DependentUpon>
+    <Compile Include="usufrecuentes.Designer.cs">
+      <DependentUpon>usufrecuentes.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Acción 1.resx">
-      <DependentUpon>Acción 1.cs</DependentUpon>
+    <EmbeddedResource Include="accion1.resx">
+      <DependentUpon>accion1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Acción 2.resx">
-      <DependentUpon>Acción 2.cs</DependentUpon>
+    <EmbeddedResource Include="accion2.resx">
+      <DependentUpon>accion2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Acción 3.resx">
-      <DependentUpon>Acción 3.cs</DependentUpon>
+    <EmbeddedResource Include="accion3.resx">
+      <DependentUpon>accion3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Acción 4.resx">
-      <DependentUpon>Acción 4.cs</DependentUpon>
+    <EmbeddedResource Include="acción 4.resx">
+      <DependentUpon>acción 4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="acercade.resx">
       <DependentUpon>acercade.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Autores.resx">
-      <DependentUpon>Autores.cs</DependentUpon>
+    <EmbeddedResource Include="autores.resx">
+      <DependentUpon>autores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Añadir Libro.resx">
-      <DependentUpon>Añadir Libro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="datosprestamos.resx">
-      <DependentUpon>datosprestamos.cs</DependentUpon>
+    <EmbeddedResource Include="prestamos.resx">
+      <DependentUpon>prestamos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="flogin.resx">
       <DependentUpon>flogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fusuarios.resx">
-      <DependentUpon>fusuarios.cs</DependentUpon>
+    <EmbeddedResource Include="usuacces.resx">
+      <DependentUpon>usuacces.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Medio Ambiente.resx">
-      <DependentUpon>Medio Ambiente.cs</DependentUpon>
+    <EmbeddedResource Include="medioambiente.resx">
+      <DependentUpon>medioambiente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mysqlusu.resx">
-      <DependentUpon>mysqlusu.cs</DependentUpon>
+    <EmbeddedResource Include="usumysql.resx">
+      <DependentUpon>usumysql.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ventana de Ayuda.resx">
-      <DependentUpon>Ventana de Ayuda.cs</DependentUpon>
+    <EmbeddedResource Include="ventanayuda.resx">
+      <DependentUpon>ventanayuda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ayuda.resx">
-      <DependentUpon>Ayuda.cs</DependentUpon>
+    <EmbeddedResource Include="ayuda.resx">
+      <DependentUpon>ayuda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Libros.resx">
-      <DependentUpon>Libros.cs</DependentUpon>
+    <EmbeddedResource Include="libros.resx">
+      <DependentUpon>libros.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Editoriales.resx">
-      <DependentUpon>Editoriales.cs</DependentUpon>
+    <EmbeddedResource Include="editoriales.resx">
+      <DependentUpon>editoriales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Empleados.resx">
-      <DependentUpon>Empleados.cs</DependentUpon>
+    <EmbeddedResource Include="empleados.resx">
+      <DependentUpon>empleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inicio.resx">
       <DependentUpon>inicio.cs</DependentUpon>
@@ -310,14 +301,14 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proveedores.resx">
-      <DependentUpon>Proveedores.cs</DependentUpon>
+    <EmbeddedResource Include="proveedores.resx">
+      <DependentUpon>proveedores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reservacion.resx">
-      <DependentUpon>Reservacion.cs</DependentUpon>
+    <EmbeddedResource Include="reservacion.resx">
+      <DependentUpon>reservacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Usufrecuentes.resx">
-      <DependentUpon>Usufrecuentes.cs</DependentUpon>
+    <EmbeddedResource Include="usufrecuentes.resx">
+      <DependentUpon>usufrecuentes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    partial class Usufrecuentes
+    partial class usufrecuentes
     {
         /// <summary>
         /// Required designer variable.

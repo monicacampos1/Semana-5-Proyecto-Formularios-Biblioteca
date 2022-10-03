@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    partial class Empleados
+    partial class empleados
     {
         /// <summary>
         /// Required designer variable.

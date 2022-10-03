@@ -10,21 +10,26 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Añadir_Libro : Form
+    public partial class usufrecuentes : Form
     {
-        public Añadir_Libro()
+        public usufrecuentes()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Usufrecuentes_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

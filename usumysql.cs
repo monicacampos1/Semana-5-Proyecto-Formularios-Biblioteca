@@ -13,7 +13,7 @@ using MySql.Data.MySqlClient;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class mysqlusu : Form
+    public partial class usumysql : Form
     {
 
 
@@ -25,7 +25,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         public string usuario_modificar;
         public string usuario_eliminar;
 
-        public mysqlusu()
+        public usumysql()
         {
             InitializeComponent();
         }

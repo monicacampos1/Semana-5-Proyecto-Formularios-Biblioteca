@@ -11,7 +11,7 @@ using System.Data.OleDb;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class fusuarios : Form
+    public partial class usuacces : Form
     {
 
         // Crear la variable para la conexión 
@@ -21,7 +21,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         public string usuario_modificar;
 
 
-        public fusuarios()
+        public usuacces()
         {
             miconexion = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\MINEDUCYT\Source\Repos\Semana-5-Proyecto-Formularios-Biblioteca2.2\sistemausu.mdb");
             InitializeComponent();

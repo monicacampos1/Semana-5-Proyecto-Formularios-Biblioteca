@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    partial class datosprestamos
+    partial class prestamos
     {
         /// <summary>
         /// Required designer variable.
@@ -306,12 +306,12 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.textBox7.Size = new System.Drawing.Size(132, 20);
             this.textBox7.TabIndex = 165;
             // 
-            // datosprestamos
+            // prestamos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
-            this.ClientSize = new System.Drawing.Size(902, 533);
+            this.ClientSize = new System.Drawing.Size(902, 548);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox6);
@@ -338,7 +338,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Name = "datosprestamos";
+            this.Name = "prestamos";
             this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario añadir prestamo ";
             this.Load += new System.EventHandler(this.datosprestamos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

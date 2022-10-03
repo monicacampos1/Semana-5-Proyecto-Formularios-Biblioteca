@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    partial class fusuarios
+    partial class usuacces
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fusuarios));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(usuacces));
             this.label6 = new System.Windows.Forms.Label();
             this.bactualizar = new System.Windows.Forms.Button();
             this.bguardar = new System.Windows.Forms.Button();

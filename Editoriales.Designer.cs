@@ -1,7 +1,7 @@
 ﻿
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    partial class Editoriales
+    partial class editoriales
     {
         /// <summary>
         /// Required designer variable.
