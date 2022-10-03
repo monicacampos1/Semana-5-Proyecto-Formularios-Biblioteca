@@ -25,7 +25,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void prestamosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            prestamos facercade = new prestamos();
+            datosprestamos facercade = new datosprestamos();
             facercade.ShowDialog();
         }
 
@@ -68,13 +68,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Proveedores_registro_ t = new Proveedores_registro_();
+            Proveedores t = new Proveedores();
             t.ShowDialog();
         }
 
         private void reservacionDeLibrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Reservaciones r = new Reservaciones();
+            Reservacion r = new Reservacion();
             r.ShowDialog();
         }
 
@@ -114,6 +114,22 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private void ayudaDelSistemaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ayuda_del_Sistema sistemaAyuda = new Ayuda_del_Sistema();
+            sistemaAyuda.ShowDialog();
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ayuda_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void medioAmbienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Medio_Ambiente sistemaAyuda = new Medio_Ambiente ();
             sistemaAyuda.ShowDialog();
         }
     }

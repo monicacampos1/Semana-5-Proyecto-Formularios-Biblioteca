@@ -26,5 +26,10 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
 
         }
+
+        private void Proveedores_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

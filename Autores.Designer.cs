@@ -66,9 +66,9 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label3.Location = new System.Drawing.Point(28, 80);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 20);
+            this.label3.Size = new System.Drawing.Size(131, 20);
             this.label3.TabIndex = 55;
-            this.label3.Text = "Nombre del autor:";
+            this.label3.Text = "Nombre del autor";
             // 
             // label4
             // 
@@ -76,9 +76,9 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label4.Location = new System.Drawing.Point(28, 130);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 20);
+            this.label4.Size = new System.Drawing.Size(96, 20);
             this.label4.TabIndex = 56;
-            this.label4.Text = "Nombre del libro";
+            this.label4.Text = "Descripcion ";
             // 
             // textBox2
             // 

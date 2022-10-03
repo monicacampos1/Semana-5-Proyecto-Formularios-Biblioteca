@@ -46,6 +46,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.ayudaDelSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.medioAmbienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -150,11 +151,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.ayuda.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.contactosToolStripMenuItem,
             this.cerrarProgramaToolStripMenuItem,
-            this.ayudaDelSistemaToolStripMenuItem});
+            this.ayudaDelSistemaToolStripMenuItem,
+            this.medioAmbienteToolStripMenuItem});
             this.ayuda.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ayuda.Name = "ayuda";
             this.ayuda.Size = new System.Drawing.Size(76, 25);
             this.ayuda.Text = "Ayuda ";
+            this.ayuda.Click += new System.EventHandler(this.ayuda_Click);
             // 
             // contactosToolStripMenuItem
             // 
@@ -201,6 +204,13 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // medioAmbienteToolStripMenuItem
+            // 
+            this.medioAmbienteToolStripMenuItem.Name = "medioAmbienteToolStripMenuItem";
+            this.medioAmbienteToolStripMenuItem.Size = new System.Drawing.Size(221, 26);
+            this.medioAmbienteToolStripMenuItem.Text = "Medio Ambiente ";
+            this.medioAmbienteToolStripMenuItem.Click += new System.EventHandler(this.medioAmbienteToolStripMenuItem_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -216,6 +226,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.Name = "Menu";
             this.Text = "Sistema Bibliotecario Lectores sin rumbo  - Formulario principal ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Menu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -241,6 +252,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
         private System.Windows.Forms.ToolStripMenuItem contactosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarProgramaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaDelSistemaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem medioAmbienteToolStripMenuItem;
     }
 }
 

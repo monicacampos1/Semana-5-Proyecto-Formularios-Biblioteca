@@ -51,7 +51,9 @@
     <Reference Include="MySql.Data, Version=8.0.30.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>packages\MySql.Data.8.0.30\lib\net452\MySql.Data.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
@@ -119,29 +121,11 @@
     <Compile Include="acercade.Designer.cs">
       <DependentUpon>acercade.cs</DependentUpon>
     </Compile>
-    <Compile Include="AgregarAutores.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AgregarAutores.Designer.cs">
-      <DependentUpon>AgregarAutores.cs</DependentUpon>
-    </Compile>
     <Compile Include="Autores.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Autores.Designer.cs">
       <DependentUpon>Autores.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Añadir editorial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Añadir editorial.Designer.cs">
-      <DependentUpon>Añadir editorial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Añadir empleados.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Añadir empleados.Designer.cs">
-      <DependentUpon>Añadir empleados.cs</DependentUpon>
     </Compile>
     <Compile Include="Añadir Libro.cs">
       <SubType>Form</SubType>
@@ -243,41 +227,23 @@
     <Compile Include="Empleados.Designer.cs">
       <DependentUpon>Empleados.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proveedores%28registro%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Proveedores%28registro%29.Designer.cs">
-      <DependentUpon>Proveedores%28registro%29.cs</DependentUpon>
-    </Compile>
     <Compile Include="Proveedores.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Proveedores.Designer.cs">
       <DependentUpon>Proveedores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Reservaciones.cs">
+    <Compile Include="Reservacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reservaciones.Designer.cs">
-      <DependentUpon>Reservaciones.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Reservación.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reservación.Designer.cs">
-      <DependentUpon>Reservación.cs</DependentUpon>
+    <Compile Include="Reservacion.Designer.cs">
+      <DependentUpon>Reservacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Usufrecuentes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Usufrecuentes.Designer.cs">
       <DependentUpon>Usufrecuentes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="prestamos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="prestamos.Designer.cs">
-      <DependentUpon>prestamos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -296,17 +262,8 @@
     <EmbeddedResource Include="acercade.resx">
       <DependentUpon>acercade.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AgregarAutores.resx">
-      <DependentUpon>AgregarAutores.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Autores.resx">
       <DependentUpon>Autores.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Añadir editorial.resx">
-      <DependentUpon>Añadir editorial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Añadir empleados.resx">
-      <DependentUpon>Añadir empleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Añadir Libro.resx">
       <DependentUpon>Añadir Libro.cs</DependentUpon>
@@ -353,23 +310,14 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proveedores%28registro%29.resx">
-      <DependentUpon>Proveedores%28registro%29.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Proveedores.resx">
       <DependentUpon>Proveedores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reservaciones.resx">
-      <DependentUpon>Reservaciones.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reservación.resx">
-      <DependentUpon>Reservación.cs</DependentUpon>
+    <EmbeddedResource Include="Reservacion.resx">
+      <DependentUpon>Reservacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Usufrecuentes.resx">
       <DependentUpon>Usufrecuentes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="prestamos.resx">
-      <DependentUpon>prestamos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

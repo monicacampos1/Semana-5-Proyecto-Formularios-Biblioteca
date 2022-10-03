@@ -29,100 +29,31 @@ namespace Semana_5_proyecto_formularios_biblioteca
         /// </summary>
         private void InitializeComponent()
         {
-            this.listViewCategoria = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnRegistrar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.labelFecha = new System.Windows.Forms.Label();
+            this.comboBoxCategoria = new System.Windows.Forms.ComboBox();
+            this.textEmpleado = new System.Windows.Forms.TextBox();
+            this.textBoxTelefono = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.bbuscar = new System.Windows.Forms.Button();
+            this.txtbuscar = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.bactualizar = new System.Windows.Forms.Button();
+            this.bguardar = new System.Windows.Forms.Button();
+            this.bsalir = new System.Windows.Forms.Button();
+            this.bmodificar = new System.Windows.Forms.Button();
+            this.beliminar = new System.Windows.Forms.Button();
+            this.bnuevo = new System.Windows.Forms.Button();
+            this.bultimo = new System.Windows.Forms.Button();
+            this.bsiguiente = new System.Windows.Forms.Button();
+            this.banterior = new System.Windows.Forms.Button();
+            this.bprimero = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // listViewCategoria
-            // 
-            this.listViewCategoria.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.listViewCategoria.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5});
-            this.listViewCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listViewCategoria.GridLines = true;
-            this.listViewCategoria.HideSelection = false;
-            this.listViewCategoria.Location = new System.Drawing.Point(66, 159);
-            this.listViewCategoria.Margin = new System.Windows.Forms.Padding(2);
-            this.listViewCategoria.Name = "listViewCategoria";
-            this.listViewCategoria.Size = new System.Drawing.Size(650, 234);
-            this.listViewCategoria.TabIndex = 24;
-            this.listViewCategoria.UseCompatibleStateImageBehavior = false;
-            this.listViewCategoria.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Empleado";
-            this.columnHeader1.Width = 227;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Genero";
-            this.columnHeader2.Width = 127;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Cargo";
-            this.columnHeader3.Width = 161;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "ID Empleado";
-            this.columnHeader4.Width = 150;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Teléfono";
-            this.columnHeader5.Width = 198;
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnCancelar.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancelar.FlatAppearance.BorderSize = 0;
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCancelar.Location = new System.Drawing.Point(524, 433);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(192, 32);
-            this.btnCancelar.TabIndex = 22;
-            this.btnCancelar.Text = "Salir ";
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
-            // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnRegistrar.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRegistrar.FlatAppearance.BorderSize = 0;
-            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnRegistrar.Location = new System.Drawing.Point(66, 433);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(263, 32);
-            this.btnRegistrar.TabIndex = 21;
-            this.btnRegistrar.Text = "Resistrar un nuevo empleado";
-            this.btnRegistrar.UseVisualStyleBackColor = false;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // label1
             // 
@@ -135,77 +66,304 @@ namespace Semana_5_proyecto_formularios_biblioteca
             this.label1.TabIndex = 25;
             this.label1.Text = "Tabla de empleados";
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(206, 93);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(254, 26);
+            this.textBox1.TabIndex = 58;
+            // 
+            // labelFecha
+            // 
+            this.labelFecha.AutoSize = true;
+            this.labelFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFecha.Location = new System.Drawing.Point(187, 93);
+            this.labelFecha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelFecha.Name = "labelFecha";
+            this.labelFecha.Size = new System.Drawing.Size(0, 20);
+            this.labelFecha.TabIndex = 56;
+            this.labelFecha.Visible = false;
+            // 
+            // comboBoxCategoria
+            // 
+            this.comboBoxCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxCategoria.FormattingEnabled = true;
+            this.comboBoxCategoria.Items.AddRange(new object[] {
+            "Jefe",
+            "Administrador",
+            "Empleado"});
+            this.comboBoxCategoria.Location = new System.Drawing.Point(206, 241);
+            this.comboBoxCategoria.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBoxCategoria.Name = "comboBoxCategoria";
+            this.comboBoxCategoria.Size = new System.Drawing.Size(254, 28);
+            this.comboBoxCategoria.TabIndex = 55;
+            this.comboBoxCategoria.SelectedIndexChanged += new System.EventHandler(this.comboBoxCategoria_SelectedIndexChanged);
+            // 
+            // textEmpleado
+            // 
+            this.textEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEmpleado.Location = new System.Drawing.Point(206, 149);
+            this.textEmpleado.Margin = new System.Windows.Forms.Padding(2);
+            this.textEmpleado.Name = "textEmpleado";
+            this.textEmpleado.Size = new System.Drawing.Size(254, 26);
+            this.textEmpleado.TabIndex = 54;
+            // 
+            // textBoxTelefono
+            // 
+            this.textBoxTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTelefono.Location = new System.Drawing.Point(206, 197);
+            this.textBoxTelefono.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxTelefono.Name = "textBoxTelefono";
+            this.textBoxTelefono.Size = new System.Drawing.Size(254, 26);
+            this.textBoxTelefono.TabIndex = 53;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(37, 249);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(132, 20);
+            this.label4.TabIndex = 52;
+            this.label4.Text = "Cargo Empleado:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(37, 203);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(153, 20);
+            this.label3.TabIndex = 51;
+            this.label3.Text = "Numero de teléfono:";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(134, 101);
+            this.label2.Location = new System.Drawing.Point(37, 149);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 20);
-            this.label2.TabIndex = 26;
-            this.label2.Text = "Buscar:";
+            this.label2.Size = new System.Drawing.Size(165, 20);
+            this.label2.TabIndex = 50;
+            this.label2.Text = "Nombre de empleado:";
             // 
-            // textBox1
+            // label5
             // 
-            this.textBox1.Location = new System.Drawing.Point(198, 104);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(182, 20);
-            this.textBox1.TabIndex = 27;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(37, 93);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(133, 20);
+            this.label5.TabIndex = 49;
+            this.label5.Text = "Fecha de registro";
             // 
-            // button1
+            // bbuscar
             // 
-            this.button1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.button1.BackColor = System.Drawing.Color.PaleGreen;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(396, 101);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 25);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.bbuscar.BackColor = System.Drawing.Color.PaleGreen;
+            this.bbuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bbuscar.Location = new System.Drawing.Point(783, 90);
+            this.bbuscar.Name = "bbuscar";
+            this.bbuscar.Size = new System.Drawing.Size(86, 29);
+            this.bbuscar.TabIndex = 111;
+            this.bbuscar.Text = "Buscar";
+            this.bbuscar.UseVisualStyleBackColor = false;
+            // 
+            // txtbuscar
+            // 
+            this.txtbuscar.Location = new System.Drawing.Point(580, 93);
+            this.txtbuscar.Name = "txtbuscar";
+            this.txtbuscar.Size = new System.Drawing.Size(180, 20);
+            this.txtbuscar.TabIndex = 110;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(558, 149);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(398, 253);
+            this.dataGridView1.TabIndex = 109;
+            // 
+            // bactualizar
+            // 
+            this.bactualizar.BackColor = System.Drawing.Color.PaleGreen;
+            this.bactualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bactualizar.Location = new System.Drawing.Point(303, 407);
+            this.bactualizar.Name = "bactualizar";
+            this.bactualizar.Size = new System.Drawing.Size(86, 29);
+            this.bactualizar.TabIndex = 121;
+            this.bactualizar.Text = "Actualizar ";
+            this.bactualizar.UseVisualStyleBackColor = false;
+            this.bactualizar.Visible = false;
+            // 
+            // bguardar
+            // 
+            this.bguardar.BackColor = System.Drawing.Color.PaleGreen;
+            this.bguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bguardar.Location = new System.Drawing.Point(41, 407);
+            this.bguardar.Name = "bguardar";
+            this.bguardar.Size = new System.Drawing.Size(86, 29);
+            this.bguardar.TabIndex = 120;
+            this.bguardar.Text = "Guardar ";
+            this.bguardar.UseVisualStyleBackColor = false;
+            this.bguardar.Visible = false;
+            // 
+            // bsalir
+            // 
+            this.bsalir.BackColor = System.Drawing.Color.PaleGreen;
+            this.bsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bsalir.Location = new System.Drawing.Point(444, 354);
+            this.bsalir.Name = "bsalir";
+            this.bsalir.Size = new System.Drawing.Size(86, 29);
+            this.bsalir.TabIndex = 119;
+            this.bsalir.Text = "Salir ";
+            this.bsalir.UseVisualStyleBackColor = false;
+            // 
+            // bmodificar
+            // 
+            this.bmodificar.BackColor = System.Drawing.Color.PaleGreen;
+            this.bmodificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bmodificar.Location = new System.Drawing.Point(303, 354);
+            this.bmodificar.Name = "bmodificar";
+            this.bmodificar.Size = new System.Drawing.Size(86, 29);
+            this.bmodificar.TabIndex = 118;
+            this.bmodificar.Text = "Modificar";
+            this.bmodificar.UseVisualStyleBackColor = false;
+            // 
+            // beliminar
+            // 
+            this.beliminar.BackColor = System.Drawing.Color.PaleGreen;
+            this.beliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.beliminar.Location = new System.Drawing.Point(167, 354);
+            this.beliminar.Name = "beliminar";
+            this.beliminar.Size = new System.Drawing.Size(86, 29);
+            this.beliminar.TabIndex = 117;
+            this.beliminar.Text = "Eliminar";
+            this.beliminar.UseVisualStyleBackColor = false;
+            // 
+            // bnuevo
+            // 
+            this.bnuevo.BackColor = System.Drawing.Color.PaleGreen;
+            this.bnuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bnuevo.Location = new System.Drawing.Point(41, 354);
+            this.bnuevo.Name = "bnuevo";
+            this.bnuevo.Size = new System.Drawing.Size(86, 29);
+            this.bnuevo.TabIndex = 116;
+            this.bnuevo.Text = "Nuevo";
+            this.bnuevo.UseVisualStyleBackColor = false;
+            // 
+            // bultimo
+            // 
+            this.bultimo.BackColor = System.Drawing.Color.PaleGreen;
+            this.bultimo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bultimo.Location = new System.Drawing.Point(444, 299);
+            this.bultimo.Name = "bultimo";
+            this.bultimo.Size = new System.Drawing.Size(86, 29);
+            this.bultimo.TabIndex = 115;
+            this.bultimo.Text = "Ultimo";
+            this.bultimo.UseVisualStyleBackColor = false;
+            // 
+            // bsiguiente
+            // 
+            this.bsiguiente.BackColor = System.Drawing.Color.PaleGreen;
+            this.bsiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bsiguiente.Location = new System.Drawing.Point(303, 299);
+            this.bsiguiente.Name = "bsiguiente";
+            this.bsiguiente.Size = new System.Drawing.Size(86, 29);
+            this.bsiguiente.TabIndex = 114;
+            this.bsiguiente.Text = "Siguiente";
+            this.bsiguiente.UseVisualStyleBackColor = false;
+            // 
+            // banterior
+            // 
+            this.banterior.BackColor = System.Drawing.Color.PaleGreen;
+            this.banterior.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.banterior.Location = new System.Drawing.Point(167, 299);
+            this.banterior.Name = "banterior";
+            this.banterior.Size = new System.Drawing.Size(86, 29);
+            this.banterior.TabIndex = 113;
+            this.banterior.Text = "Anterior";
+            this.banterior.UseVisualStyleBackColor = false;
+            // 
+            // bprimero
+            // 
+            this.bprimero.BackColor = System.Drawing.Color.PaleGreen;
+            this.bprimero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bprimero.Location = new System.Drawing.Point(41, 299);
+            this.bprimero.Name = "bprimero";
+            this.bprimero.Size = new System.Drawing.Size(86, 29);
+            this.bprimero.TabIndex = 112;
+            this.bprimero.Text = "Primero";
+            this.bprimero.UseVisualStyleBackColor = false;
             // 
             // Empleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(237)))), ((int)(((byte)(220)))));
-            this.ClientSize = new System.Drawing.Size(771, 502);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(995, 486);
+            this.Controls.Add(this.bactualizar);
+            this.Controls.Add(this.bguardar);
+            this.Controls.Add(this.bsalir);
+            this.Controls.Add(this.bmodificar);
+            this.Controls.Add(this.beliminar);
+            this.Controls.Add(this.bnuevo);
+            this.Controls.Add(this.bultimo);
+            this.Controls.Add(this.bsiguiente);
+            this.Controls.Add(this.banterior);
+            this.Controls.Add(this.bprimero);
+            this.Controls.Add(this.bbuscar);
+            this.Controls.Add(this.txtbuscar);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.labelFecha);
+            this.Controls.Add(this.comboBoxCategoria);
+            this.Controls.Add(this.textEmpleado);
+            this.Controls.Add(this.textBoxTelefono);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listViewCategoria);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnRegistrar);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Empleados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Sistema Bibliotecario Lectores sin rumbo - Formulario empleados";
             this.Load += new System.EventHandler(this.Empleados_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.ListView listViewCategoria;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label labelFecha;
+        private System.Windows.Forms.ComboBox comboBoxCategoria;
+        private System.Windows.Forms.TextBox textEmpleado;
+        private System.Windows.Forms.TextBox textBoxTelefono;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button bbuscar;
+        private System.Windows.Forms.TextBox txtbuscar;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button bactualizar;
+        private System.Windows.Forms.Button bguardar;
+        private System.Windows.Forms.Button bsalir;
+        private System.Windows.Forms.Button bmodificar;
+        private System.Windows.Forms.Button beliminar;
+        private System.Windows.Forms.Button bnuevo;
+        private System.Windows.Forms.Button bultimo;
+        private System.Windows.Forms.Button bsiguiente;
+        private System.Windows.Forms.Button banterior;
+        private System.Windows.Forms.Button bprimero;
     }
 }

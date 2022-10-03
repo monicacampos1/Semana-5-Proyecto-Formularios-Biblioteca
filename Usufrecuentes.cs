@@ -21,5 +21,15 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
             Close();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Usufrecuentes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Semana_5_proyecto_formularios_biblioteca
 {
-    public partial class Reservación : Form
+    public partial class Reservacion : Form
     {
-        public Reservación()
+        public Reservacion()
         {
             InitializeComponent();
         }
@@ -29,8 +29,11 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            Reservaciones ti = new Reservaciones();
-            ti.ShowDialog();
+        }
+
+        private void Reservacion_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

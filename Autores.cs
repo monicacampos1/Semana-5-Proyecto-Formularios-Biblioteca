@@ -32,8 +32,7 @@ namespace Semana_5_proyecto_formularios_biblioteca
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            AgregarAutores ag = new AgregarAutores();
-            ag.ShowDialog();
+            
         }
 
         private void label2_Click(object sender, EventArgs e)

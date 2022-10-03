@@ -21,5 +21,29 @@ namespace Semana_5_proyecto_formularios_biblioteca
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Acción_1 sistemaAyuda = new Acción_1();
+            sistemaAyuda.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Acción_2 sistemaAyuda = new Acción_2();
+            sistemaAyuda.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Acción_3 sistemaAyuda = new Acción_3();
+            sistemaAyuda.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Acción_4 sistemaAyuda = new Acción_4();
+            sistemaAyuda.ShowDialog();
+        }
     }
 }
